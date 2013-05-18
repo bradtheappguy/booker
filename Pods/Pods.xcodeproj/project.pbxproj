@@ -1,0 +1,1424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A1A0F9466B4A2D9D7F8158 /* LCLNSLog_RK.h in Headers */ = {isa = PBXBuildFile; fileRef = B182CF6E77474929AD6A1798 /* LCLNSLog_RK.h */; settings = {}; };
+		0206FF5E3D7A43A490F1D6ED /* RKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A42EF6C71A0747FC8C021E00 /* RKMacros.h */; settings = {}; };
+		03CC51D0FCE2480D93AF5C17 /* NSManagedObject+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB1D811C24841C6BFE40B10 /* NSManagedObject+RKAdditions.h */; settings = {}; };
+		046DF06D96174D4EB07D77CB /* QuickDialogController+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = 5683C8A6EAEB4D92AE4EDB8D /* QuickDialogController+Animations.h */; settings = {}; };
+		051B4043EFFE4715A4F0C1E2 /* QRootBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF7FFB297884CFC8737D15F /* QRootBuilder.h */; settings = {}; };
+		05C0FA676D5145B1B4B92FAD /* QuickDialogTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CC72ECE1E249599413B3C6 /* QuickDialogTableView.h */; settings = {}; };
+		0795C359BF4D49A09A8B28A5 /* QAutoEntryElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F43E8606B4ACBAF9DBDC6 /* QAutoEntryElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		07AF4D80690C413184BA07EC /* RKErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15B5B83D844D69B5FA78C3 /* RKErrors.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		083845D5ADEC440C93F931CC /* QTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 595B66291617446090AA2E7B /* QTextField.h */; settings = {}; };
+		0894B961604E4AA191E665DB /* QuickDialogController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAA8DD0231444849499E0D6 /* QuickDialogController+Loading.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0902BE3C977B413D837698EF /* RKMIMETypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 633F196BFE5648C589F1C96C /* RKMIMETypes.h */; settings = {}; };
+		0948EE1FABD649D7888A44C2 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9A58490E9349FCB6B3AEA5 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		09A7AF032BC64FC6A6CD5091 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6803C7BA140E45A5ADB60C1A /* AFNetworking.h */; settings = {}; };
+		0A17520D5A524D14980CF44D /* RKMappingResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E584D5F10E843E29433D5A0 /* RKMappingResult.h */; settings = {}; };
+		0A25B72578214ACBA744844C /* RKMappingErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 39567D5067C84356964B528E /* RKMappingErrors.h */; settings = {}; };
+		0C73E69D352645E2BE62216E /* QuickDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDBF15B9A7146C68EF5EBFC /* QuickDialogController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0D123E0A204B4EF9B45BEF1A /* QImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7EFFBCCB94FA88A9F026B /* QImageElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0D1FDA6DC9F441CDBB37E3D7 /* QDecimalElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F11D03F5FB4DCD966948DE /* QDecimalElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0D579015BB894D5185CA5932 /* QButtonElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F09D813D4945F2BFCE721A /* QButtonElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0E87132562B041B8B72F15BE /* RKDynamicMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B363A50A48A4CF89E05BD68 /* RKDynamicMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0F0AC064B9724CAE97B0A8B3 /* lcl_config_components_RK.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CB2CCF5B2D4BD9BB0A5DDE /* lcl_config_components_RK.h */; settings = {}; };
+		0FF36B880A084E9386F9015A /* RKManagedObjectImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B119F7DEC825410D857DAF91 /* RKManagedObjectImporter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1053F3CACFDE4FCF91574019 /* QRootElement+JsonBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9296F8274A4E46CE8335808E /* QRootElement+JsonBuilder.h */; settings = {}; };
+		10F8887CA7194AAE8B155F72 /* RKObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80787514C4804DE4913EA11A /* RKObjectManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		11226F3B82FE434FA028AA6A /* QTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A15CDD090EDB4CA1A91D2C32 /* QTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1123FD881689419D8949D6B8 /* RKObjectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC6C5F27DFD4D03B761BA38 /* RKObjectUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		112B060EACF44C07B24DA0F5 /* RKResponseDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6063443F966745DF8A951B6C /* RKResponseDescriptor.h */; settings = {}; };
+		1360EC979D324E39B2C0CAB7 /* QBadgeElement.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2539D11B1E427197570802 /* QBadgeElement.h */; settings = {}; };
+		15F3446AC9C747AB8300C013 /* RKErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4428047399D7428AAE6E9658 /* RKErrorMessage.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1639138DE2E942B78C893316 /* QuickDialogController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1ECC421B6B743B99FC62CAB /* QuickDialogController.h */; settings = {}; };
+		168724738BFD49458342BF1A /* QMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E0F816A9D4313ADE426A5 /* QMapAnnotation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		183E08211DFE4E4F8CC8A477 /* RKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A2FD3EBB84884A7B66491 /* RKRouter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1AD9DFF038BE4214B9B2F2BD /* QDecimalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41089F03685B44CCA598532D /* QDecimalTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1ADD4BEC02274738BF45BAB6 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E637F59A8C74043978C8F39 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1C28BEB6823846949D3D6986 /* RKDynamicMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FC8DA3ADDD4DEDBA6A8A7E /* RKDynamicMapping.h */; settings = {}; };
+		1C8BB015B614491EB9D8B91E /* QPickerElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1688C13B5D6141D49F15C3A5 /* QPickerElement.h */; settings = {}; };
+		1CD3118FDE6A4CF7B8836FB5 /* QBadgeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5DBB97546B4164BFCE7A3A /* QBadgeLabel.h */; settings = {}; };
+		1D5D003E8DCB4BCCA497EA4D /* RKRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = EC333174355040FA8E5BF793 /* RKRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1DE6854954ED4BEC9DC9782F /* QRootElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBE52DA061E4E40A513F2DC /* QRootElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1F73F142BAC049EE914E5DB0 /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8377670BEAA2410098E20921 /* AFXMLRequestOperation.h */; settings = {}; };
+		206D140A9D1A450EA305064F /* RKRelationshipMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F7B7074BE4A4DA9D7D4AE /* RKRelationshipMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		215D66667ABD4B25A5CD7B3C /* QPickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EF4295E3BB46DFBA890668 /* QPickerTableViewCell.h */; settings = {}; };
+		225C7CA295DD441085967D65 /* RKPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 308762813CE5484D9B54519C /* RKPaginator.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		23CE102D2C414C98AA460883 /* RKErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE0390456664E049080D3EE /* RKErrorMessage.h */; settings = {}; };
+		240FBBE6D2D444E2888C72AC /* QTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E25FA95D1C4268AA09006A /* QTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2486231EE2904CC1A7C2DCCF /* RKMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 731F814D9F8F4E4F8844E4F8 /* RKMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		249A057B484540DF8379EADE /* QMapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B08000DFE249E1AC8FF684 /* QMapElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		25DBC7D32F394978B5FB6220 /* QImageElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 785D21DC57AF48EAA019A319 /* QImageElement.h */; settings = {}; };
+		25DE332F1EE0424A8BAAC6FC /* QImageTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DD9101468C453E9BAFA5FE /* QImageTableViewCell.h */; settings = {}; };
+		27B8FABA0548467B8F5CBC02 /* RKObjectRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 108637F7BBA84A94A32ACAD7 /* RKObjectRequestOperation.h */; settings = {}; };
+		2936A837C3F44106BF5D1691 /* QDateTimeInlineElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A5A0B2477C483CBEB334C4 /* QDateTimeInlineElement.h */; settings = {}; };
+		2A868D56AC5B435CA3509DEB /* QDynamicDataSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B667415AA491692B104C9 /* QDynamicDataSection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2BC763BC39A64984895D56C2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C080C234F2B5415A98AEAEDF /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2CB77914ACF54B1B95B487BF /* SOCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A735EF06C9E4EF996FC8CA6 /* SOCKit.m */; settings = {}; };
+		2D1922B6B9AB49D7AF57E5C5 /* QuickDialogController+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B791DF3D54387910EEF44 /* QuickDialogController+Helpers.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2D925B56595749EDB8F79F2A /* QRootElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC697F09C544EF3A319ED6E /* QRootElement.h */; settings = {}; };
+		2DB5297716B541D98DE865E3 /* QWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F51C40DD0F44F7A97C2A05 /* QWebViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2E203B0DAFB649D1B7D4AA4E /* RKConnectionDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AB73ED242B49F0AF53FC6B /* RKConnectionDescription.h */; settings = {}; };
+		2EB7545DD5144217A418FD14 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78192334D3144B3097D50084 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2EC4EA9F8AC14885BCD2D39D /* QPickerTabDelimitedStringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D652B19725A842AAA6ECA784 /* QPickerTabDelimitedStringParser.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2FC4DF0EB85840AF98D72600 /* QSegmentedElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFFBB5079EE4935AD7918B0 /* QSegmentedElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		3238BEC3A5634C24B175C33C /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D640B996EDCD4C52AB1974C3 /* AFHTTPRequestOperation.h */; settings = {}; };
+		32D12C39E8684381B2C013E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEDC899FBBC4926A20E294E /* Foundation.framework */; settings = {}; };
+		338FC4C1144D4CB8A5F7DA7E /* PodsDummy_Pods.m in Sources */ = {isa = PBXBuildFile; fileRef = 997377B5EF8D41E0B290EA07 /* PodsDummy_Pods.m */; settings = {}; };
+		33CC68EE410144B991AED25B /* RKObjectMappingMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2538E4857E224C55A0F5344F /* RKObjectMappingMatcher.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		347B8FAA8AC34642B7F72EB7 /* RKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 328937AE0FD1407985509437 /* RKObjectMapping.h */; settings = {}; };
+		348E78322E63475886D50EB4 /* RKMappingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 73398A81F3874B1CB7377B93 /* RKMappingOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		34D410FC3B7D453AA1F2682B /* QDateTimeInlineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D6736B4F8F4AB48D37A381 /* QDateTimeInlineElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		364CF4E4EED94086AD092028 /* RKValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1727296585408B828D1023 /* RKValueTransformers.h */; settings = {}; };
+		36A5E033430C4A3A9FD3035B /* lcl_config_extensions_RK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B320B39C3224AF5A2AC87BD /* lcl_config_extensions_RK.h */; settings = {}; };
+		36ECC2E54C4D411E9ADAB23E /* RKRequestDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = F4653151D3684FD692F06D11 /* RKRequestDescriptor.h */; settings = {}; };
+		373527BDBE254A9B8F497FF9 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0126D6FE2D0B4A2FA46BE875 /* AFURLConnectionOperation.h */; settings = {}; };
+		376B03DD902C40E6BE24FE48 /* QBadgeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7C5E4A0A54123A57E588E /* QBadgeTableCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		37897AF398B848C3B4ADA705 /* RKMappingOperationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 209F9D840C0F4271BF1FB7DA /* RKMappingOperationDataSource.h */; settings = {}; };
+		37E694A4C5B046C4B3D48B05 /* QMultilineTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D780F3AB0F8A433B9966C01E /* QMultilineTextViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		3ADDDA78F64F4DC8BBF3FCCA /* RKHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1E94C8327E488B95542A17 /* RKHTTPRequestOperation.h */; settings = {}; };
+		3B7FFB6D20A041CB911FE21B /* QEntryElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F80D9D10A86484997826040 /* QEntryElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		3C2724C1C10D4A9093BBD7AC /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4ADC05603C4B09A7BFB699 /* AFHTTPClient.h */; settings = {}; };
+		3E161BD34BC54DC3B11E3DD6 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5A1BE154940B7B030A8FC /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		3F7F799B40174B3E89C00704 /* QSegmentedElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 010846E5A43E49EDBA25BA22 /* QSegmentedElement.h */; settings = {}; };
+		3FD0574770374E1786BA73F8 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DFA4E0E94A46BCB0B6C473 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		408323F222DB447CB0E088EE /* RKISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F58D522614ED439B9E2F5FC9 /* RKISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		410C2D65D2514478979943D7 /* RKMappingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E010417DD74D2FB49442C1 /* RKMappingResult.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		44D8451B9D2C479A8BD3EB74 /* QuickDialogTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B59977045F54932A1D761CE /* QuickDialogTableDelegate.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4546338FB5EB4A55B3C5A276 /* QWebElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E640B5E1744A26B10E7E8E /* QWebElement.h */; settings = {}; };
+		4859940954DC4302BD67E3A4 /* QDateEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE06E51423334F12A1F43F31 /* QDateEntryTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4AA16B9FB4B848EBB0692F2E /* QAutoEntryTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 516270D9E7B84C169D038DF2 /* QAutoEntryTableViewCell.h */; settings = {}; };
+		4C76A4FF37C94DD5B167B6A5 /* QElement+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B05FBB4F34CB5931F6D35 /* QElement+Appearance.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4D74B9B3D15D4DB6A6D4E790 /* QBooleanElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F59020AFA44F9BABAC536 /* QBooleanElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4DED25A325A64BACB202EF71 /* QuickDialogStyleProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A66E6C3C3EB044988A849F86 /* QuickDialogStyleProvider.h */; settings = {}; };
+		4E8B452719734CEC9A575786 /* QPickerElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C8697C04AD994B269D8756DA /* QPickerElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4EDD234DCB084989BEE877AE /* QSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDFAA8BA8434F0D9A117ADA /* QSection.h */; settings = {}; };
+		4FDBBE5CEC744607813041BC /* RKObjectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E965F3C6B7764CDB959CEF0B /* RKObjectManager.h */; settings = {}; };
+		5349290C1E8D4780BDCF546D /* QBadgeTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 11357FA5D12F460298D57FFB /* QBadgeTableCell.h */; settings = {}; };
+		560BBCB6CF0C476788AF2FC8 /* QTextElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 83509E02D7764C5E8821D53C /* QTextElement.h */; settings = {}; };
+		56F10688B10341C4AA650070 /* RKPathMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1654C2D6EB2F4AB6860F0911 /* RKPathMatcher.h */; settings = {}; };
+		5C4C08186B1649119F6C9F3E /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCF2A9CD8AE4726BC738331 /* AFImageRequestOperation.h */; settings = {}; };
+		5CB009DC1E9F42A29E5941CC /* QDecimalElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA742C3FB224D6FB241A6BF /* QDecimalElement.h */; settings = {}; };
+		5CED89201CC5487898FF2AE6 /* RKInMemoryManagedObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D1880570A3544E7ABA5E7FDE /* RKInMemoryManagedObjectCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5D304616AA6B45F9B75FBF9A /* RKSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC5B51C73E04788AF323D01 /* RKSerialization.h */; settings = {}; };
+		5E5552B31E054638859F089F /* RKManagedObjectMappingOperationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 993BC7143DCE4EDF8B184AC9 /* RKManagedObjectMappingOperationDataSource.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5E8424FD6E4F44688BD92438 /* QElement.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9E65054F07464985AFDD71 /* QElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5EC749107556496191250034 /* QBindingEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E59E5EE07441B9AC59DB98 /* QBindingEvaluator.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6005EE44B94A45DAA951E9AB /* RKDictionaryUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D89FECDBC42E68A0FCB89 /* RKDictionaryUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		608E049E42DA4266A8F786C7 /* RKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF257CF64BB455AB8619ABE /* RKObjectMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		60E99B6E24A64F8B8DF53F59 /* RKMIMETypeSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0F91125D64AD79B258DF2 /* RKMIMETypeSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		613B0267237840DE8265045E /* RKResponseMapperOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B04BB91659F4D02A524B998 /* RKResponseMapperOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		616E494C814F48E590F0AE76 /* QMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BFE7E8DB214E1880BFB4C6 /* QMapViewController.h */; settings = {}; };
+		619AEFDEDD7D4EC989093D30 /* QSelectItemElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF696FD447C7425B931BBB31 /* QSelectItemElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		63445AC639ED41B2A5DB12BF /* QSortingSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5388475DA3114086B9193287 /* QSortingSection.h */; settings = {}; };
+		63C1BFAB297544428940D1BD /* RKPropertyInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8986B7B66F427888755801 /* RKPropertyInspector.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		647D1F539CCF4B0290564596 /* ObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CEA0AC54AF4387B879AFC0 /* ObjectMapping.h */; settings = {}; };
+		6501DD20390D43CEB1C2DA73 /* RKAttributeMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB04ADCFF944F3288081DFA /* RKAttributeMapping.h */; settings = {}; };
+		65A8604D5DE94394A78BB9EA /* QAutoEntryElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FFB029030A4D569B2EF18C /* QAutoEntryElement.h */; settings = {}; };
+		6652F829C304402AB03562E1 /* NSMutableArray+IMSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E502C5936D436BA6E7CEE7 /* NSMutableArray+IMSExtensions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		672AD084864B4D88A78B07B8 /* Support.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A943E9C0411481CAFB6B03B /* Support.h */; settings = {}; };
+		68EE4CD5638745DC93019F9A /* QTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 94994A07EDCF4309A7CD9084 /* QTextElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6A1AA016EE0248C49463E859 /* QPickerTabDelimitedStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D9AC4779AF694BCB8D02498E /* QPickerTabDelimitedStringParser.h */; settings = {}; };
+		6B2B684243EB4829A5C0EDF1 /* RKURLEncodedSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474C22EE5EC4B0EBD4E42D0 /* RKURLEncodedSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6C1D0FC6465C4807839541A1 /* RKMIMETypes.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B40B9E0EE04D3FA2A30041 /* RKMIMETypes.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6CA9BDD96B364FAEA36A9E41 /* QLabelElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0572E7E32ACD4060B5C47D0E /* QLabelElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6D6D5F800BB741948A55697B /* RKObjectMappingOperationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D353C8C4173C46F69ACAFBE1 /* RKObjectMappingOperationDataSource.h */; settings = {}; };
+		6E6820AB453D478A8853A997 /* lcl_RK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F85503662BF472C9B1A6EDC /* lcl_RK.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		707F51ABFC034A90987EC24F /* RKEntityCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9DE51AAF2B4F85B1331B08 /* RKEntityCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7214896DB53D40728B554627 /* QuickDialogController+Loading.h in Headers */ = {isa = PBXBuildFile; fileRef = FACEB84FB01B48B68FEBFF6B /* QuickDialogController+Loading.h */; settings = {}; };
+		72654EE60BB345EF9DBCB4CA /* RKPaginator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4596FF581B964425BBEE96FA /* RKPaginator.h */; settings = {}; };
+		7346403CA53B4A3197A8E696 /* QCountdownElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B64AC942E8D41598128F527 /* QCountdownElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		74555437CDB149D4BA127194 /* QDynamicDataSection.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBA0CF767C44333BDFBCE01 /* QDynamicDataSection.h */; settings = {}; };
+		750FA41979734EE0A607679A /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E1D1273F449729081BEAB /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		766189675B0343A4A42F78CF /* NSManagedObject+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA8C6197BE4998BD80F722 /* NSManagedObject+RKAdditions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		79830EC7D3884D5FADE7CB9C /* RKResponseDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E06373E21CD54044B71DB9FB /* RKResponseDescriptor.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7A727E5E70104CDA97537948 /* QuickDialogTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64876B1ACF0C49DDA3C04E2C /* QuickDialogTableView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7AEE17B739D44FFF923C2A50 /* QSelectItemElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3F59801CE6438D87944A56 /* QSelectItemElement.h */; settings = {}; };
+		7B23CF0AC28A457E8FB682D6 /* QuickDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 459639A2A0B6471580DCE520 /* QuickDialog.h */; settings = {}; };
+		7BA1C58B3F264A2794136AF0 /* QRadioItemElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE0E433C1154FBD90E06736 /* QRadioItemElement.h */; settings = {}; };
+		7C211685D16D404BA2C2A55D /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C49CA62B80547E6AE32439C /* AFNetworkActivityIndicatorManager.h */; settings = {}; };
+		7CCA3605B4C443A781B71B46 /* RKRelationshipConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 916955FEC0AA49509049D6CC /* RKRelationshipConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7CEC7A72759A47869B78D41E /* QuickDialogController+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65D5E7021E46F39F9C5FD1 /* QuickDialogController+Animations.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7DB91EE11AED442EB0DDA340 /* RKObjectRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE01253C2BC94AC88CD5646F /* RKObjectRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7DC96838266341B5B8F364B6 /* RKNSJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA2A72389A94441B1694DB7 /* RKNSJSONSerialization.h */; settings = {}; };
+		7EB1518AD64A4F8F8AD340E0 /* QBooleanElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB35DF35F304D1195C155C8 /* QBooleanElement.h */; settings = {}; };
+		80950EA229E6481F9DEEAFE0 /* QElement+Appearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EECFC0F49464B1C951E0A14 /* QElement+Appearance.h */; settings = {}; };
+		823CFECDBEBA42078E869E08 /* QEntryElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A446801B490F45328E60EBD0 /* QEntryElement.h */; settings = {}; };
+		84C50BAD7A1845E2A5BFE09C /* RKURLEncodedSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AA0698351D45938C04B4CA /* RKURLEncodedSerialization.h */; settings = {}; };
+		85407356906347ECB23BD157 /* QRadioSection.h in Headers */ = {isa = PBXBuildFile; fileRef = C31DFBF0D4224963A8870D10 /* QRadioSection.h */; settings = {}; };
+		86B84D6718EC4AE6992AA2E8 /* Search.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDEED18455D4323AE41DD44 /* Search.h */; settings = {}; };
+		882E9680430643FEBCC836EE /* QRadioItemElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D8519191BF374DCF9F16FE0F /* QRadioItemElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		896FA392924F4F88886F0F0F /* QWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 165F680DDDD44230AE82127B /* QWebViewController.h */; settings = {}; };
+		8B4B56F437C6430B924461C6 /* Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 67496D503E814F10BE4B31DF /* Network.h */; settings = {}; };
+		8B5827270F574A3BA864CDD1 /* QRootBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F06A9E0AF40ECB0E3A9AD /* QRootBuilder.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8C66CC90190745E7A29F4FD8 /* RKValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D56BB492C4475996F23B7F /* RKValueTransformers.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8D91D626ED694269B696DBE9 /* RKPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A480406C94264AEFA8E0B /* RKPathUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8DA54F15FCB04E38B31FD74F /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF8CDD7987E474C82DEC47E /* AFJSONRequestOperation.h */; settings = {}; };
+		8E24CD9606A64FA4A6FD64C8 /* QuickDialogController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC421AD1A349368B0FAA9E /* QuickDialogController+Navigation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8EF8BC041C624FA788E669E7 /* RKManagedObjectMappingOperationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C80F10D13AD6484F82E6A8B5 /* RKManagedObjectMappingOperationDataSource.h */; settings = {}; };
+		8F4B05F618574F77982C54D2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B586C8E47F0C4A1B9D3B9F7A /* UIImageView+AFNetworking.h */; settings = {}; };
+		8F765A81B19D4D1186D0A1B1 /* SOCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E7A0922A5A49CD94EE1F53 /* SOCKit.h */; settings = {}; };
+		9069FAB2431642E9AC631371 /* RKManagedObjectStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4A5D9D123844B8910E26F9 /* RKManagedObjectStore.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		90ECB7C471554A1BB5EB948E /* RKFetchRequestManagedObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D06691739744BD9B246D71 /* RKFetchRequestManagedObjectCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		92ACF20CC80B452A8503A3AC /* Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 400530E2C9684A6080F8EEBE /* Testing.h */; settings = {}; };
+		94F1D2EF28354B91B69D9BAE /* CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F847FD3F8A4800A55A32D7 /* CoreData.h */; settings = {}; };
+		96E7CCBA6B88426193AA8D17 /* RKObjectParameterization.h in Headers */ = {isa = PBXBuildFile; fileRef = BD392222A77F4ED090865404 /* RKObjectParameterization.h */; settings = {}; };
+		986C3CCC610F4521B42B63B7 /* QMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D03F228A1489CA7FB1B63 /* QMapViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9947F755231C4E65BDD2E628 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DE3EBF11A4C1F804494A5 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		997DD691CCB34C0288EF41A7 /* QButtonElement.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF408376FDF4589AE9BA5DF /* QButtonElement.h */; settings = {}; };
+		99B3C235C7A043FBA5995545 /* QMultilineTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EDDF0E21BA432FB400CD5B /* QMultilineTextViewController.h */; settings = {}; };
+		9AAC1657BBE042DFA8C2C32F /* QRadioSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 556FFEDB71A3454F8C3472B7 /* QRadioSection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9B4B70E524E04903A61B6727 /* QWebElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BF3D3789CA40A896806565 /* QWebElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9BF6017190F2467297914CCA /* RKManagedObjectRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 279E1793D9A0409484FA83EA /* RKManagedObjectRequestOperation.h */; settings = {}; };
+		9C564A5EC09E465B94834ADE /* RKEntityByAttributeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1D5C84E424236914613AF /* RKEntityByAttributeCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9E41010138CA4EFABFDCB1A9 /* RKPathMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C69B4180643418EA2BE44 /* RKPathMatcher.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9E85879EFA4E46D282C50CD5 /* QMapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A545794ADDBD44F6BAD263A5 /* QMapElement.h */; settings = {}; };
+		9F0EA3577970490FA7FB84A7 /* QSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC10E0025C54C2FA4DE36D5 /* QSection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A00CB8416DC64AA1A84AE2F7 /* QFloatElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C63D15FE9FB04E15885231C8 /* QFloatElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A01DD5D6FA3E4E3CBE6682D7 /* DOAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F20EF967EE2C4F77B4C35C06 /* DOAutocompleteTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A137FB3C37A843D5AFE774BF /* QRadioElement.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9683137A854921807BA435 /* QRadioElement.h */; settings = {}; };
+		A22E80AFB0C241B49F985588 /* RKObjectMappingMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 318912B64615400F81F54538 /* RKObjectMappingMatcher.h */; settings = {}; };
+		A303FBC7F6694DEF8F73C974 /* RKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D36F4D68914499882814CF /* RKLog.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A332A532242F4F38A5E4DCAE /* RKDotNetDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A00CE4928494EA1A5FA50F5 /* RKDotNetDateFormatter.h */; settings = {}; };
+		A340DE86799E44C89B558623 /* LCLNSLog_RK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8985953AB4A2996CF9506 /* LCLNSLog_RK.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A42B5563290A45BA8EABD79F /* RKFetchRequestManagedObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EF379E4484EA4C4BBC0CF063 /* RKFetchRequestManagedObjectCache.h */; settings = {}; };
+		A60F0DC3D3294BE392B18A17 /* QCountdownElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B09B1BA34A3440F2910CF722 /* QCountdownElement.h */; settings = {}; };
+		A7FF29A6B9F2459796446950 /* NSMutableArray+MoveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D46516A680664AE1A206CF74 /* NSMutableArray+MoveObject.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A905743DA51E4920AEECADB1 /* RKMapperOperation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B95E6421B5594B539BCEF747 /* RKMapperOperation_Private.h */; settings = {}; };
+		AAB674C0AF9B44EEA7F240EF /* RKMappingOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C89385C37242839368B4C8 /* RKMappingOperation.h */; settings = {}; };
+		AAD90554033040D99CF2336B /* QuickDialogEntryElementDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0885156A0816479EBA0C7F10 /* QuickDialogEntryElementDelegate.h */; settings = {}; };
+		ABC845D77FA04F299C2E8D71 /* QEmptyListElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9FE85FA6BB4DEFB5170976 /* QEmptyListElement.h */; settings = {}; };
+		AC0E9E7D559F4C7390A094BF /* RKEntityMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 0251A83DBCF0457BB8748C16 /* RKEntityMapping.h */; settings = {}; };
+		ACC05A366B9A4898A6E7E373 /* RKRouteSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 993626AC9CF94937B9535F58 /* RKRouteSet.h */; settings = {}; };
+		AD02AAAC163C4A65A987001A /* RKRelationshipConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F8D6A59E34017A71ABBDB /* RKRelationshipConnectionOperation.h */; settings = {}; };
+		AD713EB92355446BA918C444 /* QDateTimeElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52990DE58B46E19A8E70B8 /* QDateTimeElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		AF2ABB5F73154D8795B6A1E3 /* RKDotNetDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B66CAC13CD46F9B128A3CD /* RKDotNetDateFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		AF377E5F893E48D3B39868CC /* RKRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = D44E624D6874403FBDB8CC92 /* RKRoute.h */; settings = {}; };
+		B0CCD43F4031463C968464EC /* RKMIMETypeSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B86317A58C417299600CE9 /* RKMIMETypeSerialization.h */; settings = {}; };
+		B219BAC33B094253B4140E22 /* RKEntityCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B77A6ED162A74F1AA54DD3B3 /* RKEntityCache.h */; settings = {}; };
+		B2C5F1F3EF554B1E8D006005 /* QImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1558CF3A6E04F90B5A0C9A1 /* QImageTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B3957A7EC5F140EEADAF3461 /* QTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9450E68EFC4E2CAE0ADF65 /* QTableViewCell.h */; settings = {}; };
+		B4A990204F784A6EAC64D58A /* RKRequestDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A3512BBEA4C5E8236D60B /* RKRequestDescriptor.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B59025B2568F4AAC8AEA5F15 /* RKManagedObjectStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6152BB2508B4452F82E14E49 /* RKManagedObjectStore.h */; settings = {}; };
+		B632064DF62844B780AE1AC3 /* RKMapperOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4ED8F49CBE43DA822930F2 /* RKMapperOperation.h */; settings = {}; };
+		B7C028537EEB49CFB2D7E641 /* RKObjectMappingOperationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A3218D3D459C414E9CC0D75E /* RKObjectMappingOperationDataSource.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B82030E7421248C38DA6B8AB /* RKResponseMapperOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F10C3BE6E66845108943FEB2 /* RKResponseMapperOperation.h */; settings = {}; };
+		B82D3C971B3C4D46B14E796E /* NSManagedObjectContext+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7822779A034D5CAD248B9A /* NSManagedObjectContext+RKAdditions.h */; settings = {}; };
+		B8D1C2CA329B41FD9D0D8FDF /* RKPropertyInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B33EED933E4A98858693AA /* RKPropertyInspector.h */; settings = {}; };
+		B97EEEDD846448D59B36A20E /* NSMutableArray+MoveObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E1A9C500624DEEAA9F1208 /* NSMutableArray+MoveObject.h */; settings = {}; };
+		BAA52E53BB024B0CA02E42D8 /* QEmptyListElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EAF3707A64F14A9E0F9FD /* QEmptyListElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		BBA507AA8E434E2098F79190 /* QRadioElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D2D01B62AF46F9B5615E64 /* QRadioElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		BBD746A288F747A183446D24 /* QAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = E935580F6D9943D39506BDF2 /* QAppearance.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		BC3EEAF3144E4224927F1193 /* QAutoEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 256A27DD0E66418390031AE4 /* QAutoEntryTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		BD04C8006889447D9B367BB1 /* RKPropertyInspector+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40E46CB9BF408B9293DB72 /* RKPropertyInspector+CoreData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C00CCA87C08E48C091F61C19 /* RKRequestOperationSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9806D52D932849DA8F187028 /* RKRequestOperationSubclass.h */; settings = {}; };
+		C012B4295A5C4863AFF6F4FC /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 619FC94ECF1B438191F8B3E2 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C02B9F541F5B4A3488914B29 /* QuickDialogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED5EDCD0F44082955B96A3 /* QuickDialogDataSource.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C0BE57FDC2BB4A7E934ACCC5 /* RKInMemoryManagedObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5733809DB9044B9483C44463 /* RKInMemoryManagedObjectCache.h */; settings = {}; };
+		C0C0C06CEA5D4AADBB5325BE /* RKRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4F9F3EA85F4D13BE886057 /* RKRouter.h */; settings = {}; };
+		C1195DF2F2144059989B96D1 /* RKPropertyInspector+CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2E075E9B6A4169AC151721 /* RKPropertyInspector+CoreData.h */; settings = {}; };
+		C166BCA5E1D149D794052BF4 /* RKISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F902F087AFA547B4B376A5C4 /* RKISO8601DateFormatter.h */; settings = {}; };
+		C2282A4364DE4BF497937915 /* QuickDialogWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95346D6F51584158A39C459F /* QuickDialogWebController.h */; settings = {}; };
+		C467878A02784FB99BA18935 /* RKAttributeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B51B10AC0C4315BD87022C /* RKAttributeMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C6E2575730214D1292C41BF7 /* RKRouteSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0C80EEA0A4DD3968F16A6 /* RKRouteSet.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C72170E7464D4BD7951308CE /* QSelectSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 33954C468B204FDE99919981 /* QSelectSection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C74E228D5114468D963F5665 /* RKMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C882393E644AF18CF08037 /* RKMapping.h */; settings = {}; };
+		C861A54BF37741C0B2CAF92F /* lcl_config_logger_RK.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AA502341334208B0A55C68 /* lcl_config_logger_RK.h */; settings = {}; };
+		C9F2425262B344A0BD41FFC2 /* QuickDialogDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCB7CFD7AAD44FC806560A2 /* QuickDialogDataSource.h */; settings = {}; };
+		CA94FC0DE196439BA2DF1E85 /* RKObjectParameterization.m in Sources */ = {isa = PBXBuildFile; fileRef = A4863495EAD44A308E9BC891 /* RKObjectParameterization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CBBECE5EF2F045AA9D266931 /* RKNSJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 792F8788B5554E70A7E9CD6D /* RKNSJSONSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CD1BDCA6EACA4583B24C6039 /* RKManagedObjectImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23F64753304492B46321C1 /* RKManagedObjectImporter.h */; settings = {}; };
+		CD6C15FDEBCF42B3BF21A8F1 /* QRootElement+JsonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42474898896E492B8BED60BC /* QRootElement+JsonBuilder.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CF09D1B2D57B435395854184 /* RKPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A41A14A1B724B97BA972676 /* RKPathUtilities.h */; settings = {}; };
+		D027309AFD1D4B1DAB6EDB73 /* RKPropertyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA8C461AF459D8DB18AB1 /* RKPropertyMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D12A422FEB1B43BAB169FC2E /* QPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5E406581744F6BA89FEBA /* QPickerTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D16E3A417BAB483A9882FF6F /* QSelectSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B300A7D4EF4B58876E8C9F /* QSelectSection.h */; settings = {}; };
+		D365DF20AFB841A3AFA52A02 /* QuickDialogController+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C904266BC84377BD452C08 /* QuickDialogController+Helpers.h */; settings = {}; };
+		D36B968FE71D4186BC6E142B /* QLoadingElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 52497992DB0A46FE9B485B69 /* QLoadingElement.h */; settings = {}; };
+		D6531F9C36C244028CAC9513 /* RKMapperOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D3A67556648AD923272F0 /* RKMapperOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D8ED7B344B324B77BBEC79EB /* QDecimalTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0C7BECC24E43DDA1858CD7 /* QDecimalTableViewCell.h */; settings = {}; };
+		D919A0D589214031B8C94CE2 /* RKHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298F6F1AE8E4D26A6A5150C /* RKHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DAFB96C5AB464880902123CF /* NSMutableArray+IMSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 760FF8BB8E8540A4B92CB0DF /* NSMutableArray+IMSExtensions.h */; settings = {}; };
+		DBA1CE7E800A4C488565D5E1 /* QuickDialogTableDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D5DA8F63D2409A90F8A2C0 /* QuickDialogTableDelegate.h */; settings = {}; };
+		DCA89FDC52B94A95B146770C /* RKEntityMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = AD39DCC280174C00BDA3A945 /* RKEntityMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DDF46A9150C64FF19D9A1E91 /* QMultilineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BC68845B114B409477EA86 /* QMultilineElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DE0D0D501FE0455FA9883994 /* RKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C92288FB8842D8BCF2B505 /* RKErrors.h */; settings = {}; };
+		DF3FD177E24642DDB16BBF20 /* RKManagedObjectCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 402AF7A06DCF456E9F966F82 /* RKManagedObjectCaching.h */; settings = {}; };
+		DFBB8812114A42639222307F /* RKEntityByAttributeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F85527D12145738D489174 /* RKEntityByAttributeCache.h */; settings = {}; };
+		E0A0D98C726F49E7A46129A6 /* QPickerValueParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B227BC59124F459E77E98E /* QPickerValueParser.h */; settings = {}; };
+		E19C7835777A416586B1C094 /* DOAutocompleteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A1BCEF35054F63B8A20458 /* DOAutocompleteTextField.h */; settings = {}; };
+		E35C5C8B34734F9E80ACE9F7 /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A60B0594014C27AE81A808 /* AFPropertyListRequestOperation.h */; settings = {}; };
+		E4511155A7E34DA7AEBADD51 /* QElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E89935D6D0488B90C617EF /* QElement.h */; settings = {}; };
+		E5D7F50FFBE44581940D1911 /* NSManagedObjectContext+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E48DFA213AE84982AF191510 /* NSManagedObjectContext+RKAdditions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E70F7542AF28421EA1C2FB00 /* QuickDialogController+Navigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4A1D0ED11743E9AB3A65E7 /* QuickDialogController+Navigation.h */; settings = {}; };
+		E7B23C9CEA9F4D1B97B167DC /* RKRelationshipMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = AD00D0CC091447CDA049788E /* RKRelationshipMapping.h */; settings = {}; };
+		E94A05491CAC4E968125BC7D /* QLabelElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC09CA274AF4C9AA0D3A5E4 /* QLabelElement.h */; settings = {}; };
+		EA40E1C307F14322882C9B8E /* QEntryTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DAD568EF704EF5A12DED03 /* QEntryTableViewCell.h */; settings = {}; };
+		EA76B698CF4044C3A55BA0A2 /* QDateTimeElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D92A8D10C04046A691899D20 /* QDateTimeElement.h */; settings = {}; };
+		EBFA9ACE6BEE412CA01F3C61 /* RKDictionaryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6813DB7AE70C4A4780AFD9EB /* RKDictionaryUtilities.h */; settings = {}; };
+		ECF6A258CF5E4180B56A1FF1 /* RKHTTPUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 740CA7A41911400CBF36AA5E /* RKHTTPUtilities.h */; settings = {}; };
+		ED2D2CD4CEF54566BC0E274F /* QMultilineElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CCE7AD0CB94975B145127E /* QMultilineElement.h */; settings = {}; };
+		EDDB22C2804A482AA96DEB71 /* QFloatElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D0EB69BA47416EB93012AA /* QFloatElement.h */; settings = {}; };
+		EFCB4B37C4EA482E9B63FA36 /* RKHTTPUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFE00087BEC4C678BAD8C57 /* RKHTTPUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F0CA8715EE4E48E293944E9B /* RestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E621CACC0E406A9B9DFA86 /* RestKit.h */; settings = {}; };
+		F0F292DCB9D549AB998F53CA /* RKManagedObjectRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B565E640C4B04F47B3ADB864 /* RKManagedObjectRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F12549B505384DF7915C08EF /* QSortingSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DD816B747649FEAC3FF622 /* QSortingSection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F12AE277EFDF4415AB94541A /* QBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0FD3A996146FD8EF84A83 /* QBadgeLabel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F2368567F4A14C5CA9EC6002 /* QDateEntryTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F7335FCDB4402E88167232 /* QDateEntryTableViewCell.h */; settings = {}; };
+		F29AE47AA9394DAE8F04CA34 /* QLoadingElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B5F9F8FE2B48F2B93B4E41 /* QLoadingElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F51E3399070E4CF78C2C949B /* RKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 65992B0CACFB4A328114C0DF /* RKLog.h */; settings = {}; };
+		F5F360DCC9464A1399455BE0 /* RKPropertyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = BC04899A67C646DDBF621D5E /* RKPropertyMapping.h */; settings = {}; };
+		F684FDAC02B74EA4B4A8BEA6 /* RKObjectUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8E96D177E648C087ED67E1 /* RKObjectUtilities.h */; settings = {}; };
+		F7B144A579874273ADBD1590 /* QuickDialogWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF2B48417B346AFBB7BD19C /* QuickDialogWebController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F869CBD21E12478C9119E853 /* lcl_RK.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A876D7D2C04C67A4AD342F /* lcl_RK.h */; settings = {}; };
+		F8F3B7541C174955A267972B /* QBadgeElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F8D126E56948E2A327E396 /* QBadgeElement.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F9F3B7BADF634E8FAD99A8EE /* RKConnectionDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33E63E50114D3FBA5E9ADC /* RKConnectionDescription.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		FC6B2E7ADDC24A92B1B27F7E /* QEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AB36B88A094F85A0203226 /* QEntryTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		FCDE1A97D9244CDFB902328E /* QAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 7333AD18F57A4ED2A8CCF737 /* QAppearance.h */; settings = {}; };
+		FD58EDD1F19C4DC5B4C31F21 /* QBindingEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CE03C847884BB794071CF5 /* QBindingEvaluator.h */; settings = {}; };
+		FF8A30B1FB4E4707BD414699 /* QMapAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = A309AB9E128247A3B2A4C899 /* QMapAnnotation.h */; settings = {}; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010846E5A43E49EDBA25BA22 /* QSegmentedElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSegmentedElement.h; path = QuickDialog/quickdialog/QSegmentedElement.h; sourceTree = SOURCE_ROOT; };
+		0126D6FE2D0B4A2FA46BE875 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = SOURCE_ROOT; };
+		01C92288FB8842D8BCF2B505 /* RKErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKErrors.h; path = RestKit/Code/Support/RKErrors.h; sourceTree = SOURCE_ROOT; };
+		0251A83DBCF0457BB8748C16 /* RKEntityMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKEntityMapping.h; path = RestKit/Code/CoreData/RKEntityMapping.h; sourceTree = SOURCE_ROOT; };
+		03A876D7D2C04C67A4AD342F /* lcl_RK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lcl_RK.h; path = RestKit/Vendor/LibComponentLogging/Core/lcl_RK.h; sourceTree = SOURCE_ROOT; };
+		041B667415AA491692B104C9 /* QDynamicDataSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QDynamicDataSection.m; path = QuickDialog/quickdialog/QDynamicDataSection.m; sourceTree = SOURCE_ROOT; };
+		04E502C5936D436BA6E7CEE7 /* NSMutableArray+IMSExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+IMSExtensions.m"; path = "QuickDialog/quickdialog/NSMutableArray+IMSExtensions.m"; sourceTree = SOURCE_ROOT; };
+		0572E7E32ACD4060B5C47D0E /* QLabelElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLabelElement.m; path = QuickDialog/quickdialog/QLabelElement.m; sourceTree = SOURCE_ROOT; };
+		05FFB029030A4D569B2EF18C /* QAutoEntryElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QAutoEntryElement.h; path = QuickDialog/quickdialog/QAutoEntryElement.h; sourceTree = SOURCE_ROOT; };
+		06D06691739744BD9B246D71 /* RKFetchRequestManagedObjectCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKFetchRequestManagedObjectCache.m; path = RestKit/Code/CoreData/RKFetchRequestManagedObjectCache.m; sourceTree = SOURCE_ROOT; };
+		07AB36B88A094F85A0203226 /* QEntryTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QEntryTableViewCell.m; path = QuickDialog/quickdialog/QEntryTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		07E1A9C500624DEEAA9F1208 /* NSMutableArray+MoveObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+MoveObject.h"; path = "QuickDialog/quickdialog/NSMutableArray+MoveObject.h"; sourceTree = SOURCE_ROOT; };
+		0885156A0816479EBA0C7F10 /* QuickDialogEntryElementDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickDialogEntryElementDelegate.h; path = QuickDialog/quickdialog/QuickDialogEntryElementDelegate.h; sourceTree = SOURCE_ROOT; };
+		0B04BB91659F4D02A524B998 /* RKResponseMapperOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKResponseMapperOperation.m; path = RestKit/Code/Network/RKResponseMapperOperation.m; sourceTree = SOURCE_ROOT; };
+		0C23F64753304492B46321C1 /* RKManagedObjectImporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKManagedObjectImporter.h; path = RestKit/Code/CoreData/RKManagedObjectImporter.h; sourceTree = SOURCE_ROOT; };
+		0CC09CA274AF4C9AA0D3A5E4 /* QLabelElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLabelElement.h; path = QuickDialog/quickdialog/QLabelElement.h; sourceTree = SOURCE_ROOT; };
+		0D2873A832224F1784BA88C9 /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-prefix.pch"; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		0EC8985953AB4A2996CF9506 /* LCLNSLog_RK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCLNSLog_RK.m; path = RestKit/Vendor/LibComponentLogging/NSLog/LCLNSLog_RK.m; sourceTree = SOURCE_ROOT; };
+		0F85503662BF472C9B1A6EDC /* lcl_RK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = lcl_RK.m; path = RestKit/Vendor/LibComponentLogging/Core/lcl_RK.m; sourceTree = SOURCE_ROOT; };
+		0FB1D811C24841C6BFE40B10 /* NSManagedObject+RKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+RKAdditions.h"; path = "RestKit/Code/CoreData/NSManagedObject+RKAdditions.h"; sourceTree = SOURCE_ROOT; };
+		108637F7BBA84A94A32ACAD7 /* RKObjectRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKObjectRequestOperation.h; path = RestKit/Code/Network/RKObjectRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		11357FA5D12F460298D57FFB /* QBadgeTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBadgeTableCell.h; path = QuickDialog/quickdialog/QBadgeTableCell.h; sourceTree = SOURCE_ROOT; };
+		12C0FD3A996146FD8EF84A83 /* QBadgeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBadgeLabel.m; path = QuickDialog/quickdialog/QBadgeLabel.m; sourceTree = SOURCE_ROOT; };
+		130F8D6A59E34017A71ABBDB /* RKRelationshipConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKRelationshipConnectionOperation.h; path = RestKit/Code/CoreData/RKRelationshipConnectionOperation.h; sourceTree = SOURCE_ROOT; };
+		13A5A0B2477C483CBEB334C4 /* QDateTimeInlineElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QDateTimeInlineElement.h; path = QuickDialog/quickdialog/QDateTimeInlineElement.h; sourceTree = SOURCE_ROOT; };
+		13D36F4D68914499882814CF /* RKLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKLog.m; path = RestKit/Code/Support/RKLog.m; sourceTree = SOURCE_ROOT; };
+		1654C2D6EB2F4AB6860F0911 /* RKPathMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKPathMatcher.h; path = RestKit/Code/Support/RKPathMatcher.h; sourceTree = SOURCE_ROOT; };
+		165F680DDDD44230AE82127B /* QWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWebViewController.h; path = QuickDialog/quickdialog/QWebViewController.h; sourceTree = SOURCE_ROOT; };
+		1688C13B5D6141D49F15C3A5 /* QPickerElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QPickerElement.h; path = QuickDialog/quickdialog/QPickerElement.h; sourceTree = SOURCE_ROOT; };
+		16DFA4E0E94A46BCB0B6C473 /* AFHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFNetworking/AFHTTPClient.m; sourceTree = SOURCE_ROOT; };
+		186D3A67556648AD923272F0 /* RKMapperOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKMapperOperation.m; path = RestKit/Code/ObjectMapping/RKMapperOperation.m; sourceTree = SOURCE_ROOT; };
+		18F85527D12145738D489174 /* RKEntityByAttributeCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKEntityByAttributeCache.h; path = RestKit/Code/CoreData/RKEntityByAttributeCache.h; sourceTree = SOURCE_ROOT; };
+		19B227BC59124F459E77E98E /* QPickerValueParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QPickerValueParser.h; path = QuickDialog/quickdialog/QPickerValueParser.h; sourceTree = SOURCE_ROOT; };
+		1A943E9C0411481CAFB6B03B /* Support.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Support.h; path = RestKit/Code/Support.h; sourceTree = SOURCE_ROOT; };
+		1B2E075E9B6A4169AC151721 /* RKPropertyInspector+CoreData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RKPropertyInspector+CoreData.h"; path = "RestKit/Code/CoreData/RKPropertyInspector+CoreData.h"; sourceTree = SOURCE_ROOT; };
+		1B59977045F54932A1D761CE /* QuickDialogTableDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickDialogTableDelegate.m; path = QuickDialog/quickdialog/QuickDialogTableDelegate.m; sourceTree = SOURCE_ROOT; };
+		1B5DBB97546B4164BFCE7A3A /* QBadgeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBadgeLabel.h; path = QuickDialog/quickdialog/QBadgeLabel.h; sourceTree = SOURCE_ROOT; };
+		1B64AC942E8D41598128F527 /* QCountdownElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCountdownElement.m; path = QuickDialog/quickdialog/QCountdownElement.m; sourceTree = SOURCE_ROOT; };
+		1BA742C3FB224D6FB241A6BF /* QDecimalElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QDecimalElement.h; path = QuickDialog/quickdialog/QDecimalElement.h; sourceTree = SOURCE_ROOT; };
+		1BFFBB5079EE4935AD7918B0 /* QSegmentedElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSegmentedElement.m; path = QuickDialog/quickdialog/QSegmentedElement.m; sourceTree = SOURCE_ROOT; };
+		1C4ADC05603C4B09A7BFB699 /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFNetworking/AFHTTPClient.h; sourceTree = SOURCE_ROOT; };
+		1CC5B51C73E04788AF323D01 /* RKSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKSerialization.h; path = RestKit/Code/Support/RKSerialization.h; sourceTree = SOURCE_ROOT; };
+		1DB5E406581744F6BA89FEBA /* QPickerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QPickerTableViewCell.m; path = QuickDialog/quickdialog/QPickerTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		1EC10E0025C54C2FA4DE36D5 /* QSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSection.m; path = QuickDialog/quickdialog/QSection.m; sourceTree = SOURCE_ROOT; };
+		209F9D840C0F4271BF1FB7DA /* RKMappingOperationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMappingOperationDataSource.h; path = RestKit/Code/ObjectMapping/RKMappingOperationDataSource.h; sourceTree = SOURCE_ROOT; };
+		20E640B5E1744A26B10E7E8E /* QWebElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWebElement.h; path = QuickDialog/quickdialog/QWebElement.h; sourceTree = SOURCE_ROOT; };
+		2538E4857E224C55A0F5344F /* RKObjectMappingMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKObjectMappingMatcher.m; path = RestKit/Code/ObjectMapping/RKObjectMappingMatcher.m; sourceTree = SOURCE_ROOT; };
+		256A27DD0E66418390031AE4 /* QAutoEntryTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QAutoEntryTableViewCell.m; path = QuickDialog/quickdialog/QAutoEntryTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		26F5A1BE154940B7B030A8FC /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFNetworking/AFJSONRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		279E1793D9A0409484FA83EA /* RKManagedObjectRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKManagedObjectRequestOperation.h; path = RestKit/Code/Network/RKManagedObjectRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		29E59E5EE07441B9AC59DB98 /* QBindingEvaluator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBindingEvaluator.m; path = QuickDialog/quickdialog/QBindingEvaluator.m; sourceTree = SOURCE_ROOT; };
+		2B320B39C3224AF5A2AC87BD /* lcl_config_extensions_RK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lcl_config_extensions_RK.h; path = RestKit/Code/Support/lcl_config_extensions_RK.h; sourceTree = SOURCE_ROOT; };
+		2C49CA62B80547E6AE32439C /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		308762813CE5484D9B54519C /* RKPaginator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKPaginator.m; path = RestKit/Code/Network/RKPaginator.m; sourceTree = SOURCE_ROOT; };
+		318912B64615400F81F54538 /* RKObjectMappingMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKObjectMappingMatcher.h; path = RestKit/Code/ObjectMapping/RKObjectMappingMatcher.h; sourceTree = SOURCE_ROOT; };
+		328937AE0FD1407985509437 /* RKObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKObjectMapping.h; path = RestKit/Code/ObjectMapping/RKObjectMapping.h; sourceTree = SOURCE_ROOT; };
+		33954C468B204FDE99919981 /* QSelectSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSelectSection.m; path = QuickDialog/quickdialog/QSelectSection.m; sourceTree = SOURCE_ROOT; };
+		33F11D03F5FB4DCD966948DE /* QDecimalElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QDecimalElement.m; path = QuickDialog/quickdialog/QDecimalElement.m; sourceTree = SOURCE_ROOT; };
+		34E25FA95D1C4268AA09006A /* QTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QTableViewCell.m; path = QuickDialog/quickdialog/QTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		369FA8C461AF459D8DB18AB1 /* RKPropertyMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKPropertyMapping.m; path = RestKit/Code/ObjectMapping/RKPropertyMapping.m; sourceTree = SOURCE_ROOT; };
+		39567D5067C84356964B528E /* RKMappingErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMappingErrors.h; path = RestKit/Code/ObjectMapping/RKMappingErrors.h; sourceTree = SOURCE_ROOT; };
+		3B363A50A48A4CF89E05BD68 /* RKDynamicMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKDynamicMapping.m; path = RestKit/Code/ObjectMapping/RKDynamicMapping.m; sourceTree = SOURCE_ROOT; };
+		3C0C7BECC24E43DDA1858CD7 /* QDecimalTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QDecimalTableViewCell.h; path = QuickDialog/quickdialog/QDecimalTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		3D65D5E7021E46F39F9C5FD1 /* QuickDialogController+Animations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QuickDialogController+Animations.m"; path = "QuickDialog/quickdialog/QuickDialogController+Animations.m"; sourceTree = SOURCE_ROOT; };
+		3DB35DF35F304D1195C155C8 /* QBooleanElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBooleanElement.h; path = QuickDialog/quickdialog/QBooleanElement.h; sourceTree = SOURCE_ROOT; };
+		3EFE00087BEC4C678BAD8C57 /* RKHTTPUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKHTTPUtilities.m; path = RestKit/Code/ObjectMapping/RKHTTPUtilities.m; sourceTree = SOURCE_ROOT; };
+		400530E2C9684A6080F8EEBE /* Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Testing.h; path = RestKit/Code/Testing.h; sourceTree = SOURCE_ROOT; };
+		402AF7A06DCF456E9F966F82 /* RKManagedObjectCaching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKManagedObjectCaching.h; path = RestKit/Code/CoreData/RKManagedObjectCaching.h; sourceTree = SOURCE_ROOT; };
+		41089F03685B44CCA598532D /* QDecimalTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QDecimalTableViewCell.m; path = QuickDialog/quickdialog/QDecimalTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		41DAD568EF704EF5A12DED03 /* QEntryTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QEntryTableViewCell.h; path = QuickDialog/quickdialog/QEntryTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		42474898896E492B8BED60BC /* QRootElement+JsonBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QRootElement+JsonBuilder.m"; path = "QuickDialog/quickdialog/QRootElement+JsonBuilder.m"; sourceTree = SOURCE_ROOT; };
+		4428047399D7428AAE6E9658 /* RKErrorMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKErrorMessage.m; path = RestKit/Code/ObjectMapping/RKErrorMessage.m; sourceTree = SOURCE_ROOT; };
+		459639A2A0B6471580DCE520 /* QuickDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickDialog.h; path = QuickDialog/quickdialog/QuickDialog.h; sourceTree = SOURCE_ROOT; };
+		4596FF581B964425BBEE96FA /* RKPaginator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKPaginator.h; path = RestKit/Code/Network/RKPaginator.h; sourceTree = SOURCE_ROOT; };
+		46E7A0922A5A49CD94EE1F53 /* SOCKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOCKit.h; path = SOCKit/SOCKit.h; sourceTree = SOURCE_ROOT; };
+		49B0C80EEA0A4DD3968F16A6 /* RKRouteSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKRouteSet.m; path = RestKit/Code/Network/RKRouteSet.m; sourceTree = SOURCE_ROOT; };
+		4D4A1D0ED11743E9AB3A65E7 /* QuickDialogController+Navigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QuickDialogController+Navigation.h"; path = "QuickDialog/quickdialog/QuickDialogController+Navigation.h"; sourceTree = SOURCE_ROOT; };
+		4E584D5F10E843E29433D5A0 /* RKMappingResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMappingResult.h; path = RestKit/Code/ObjectMapping/RKMappingResult.h; sourceTree = SOURCE_ROOT; };
+		4F80D9D10A86484997826040 /* QEntryElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QEntryElement.m; path = QuickDialog/quickdialog/QEntryElement.m; sourceTree = SOURCE_ROOT; };
+		4FDEED18455D4323AE41DD44 /* Search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Search.h; path = RestKit/Code/Search.h; sourceTree = SOURCE_ROOT; };
+		516270D9E7B84C169D038DF2 /* QAutoEntryTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QAutoEntryTableViewCell.h; path = QuickDialog/quickdialog/QAutoEntryTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		51F847FD3F8A4800A55A32D7 /* CoreData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreData.h; path = RestKit/Code/CoreData.h; sourceTree = SOURCE_ROOT; };
+		52497992DB0A46FE9B485B69 /* QLoadingElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLoadingElement.h; path = QuickDialog/quickdialog/QLoadingElement.h; sourceTree = SOURCE_ROOT; };
+		524B791DF3D54387910EEF44 /* QuickDialogController+Helpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QuickDialogController+Helpers.m"; path = "QuickDialog/quickdialog/QuickDialogController+Helpers.m"; sourceTree = SOURCE_ROOT; };
+		524D89FECDBC42E68A0FCB89 /* RKDictionaryUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKDictionaryUtilities.m; path = RestKit/Code/Support/RKDictionaryUtilities.m; sourceTree = SOURCE_ROOT; };
+		528C69B4180643418EA2BE44 /* RKPathMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKPathMatcher.m; path = RestKit/Code/Support/RKPathMatcher.m; sourceTree = SOURCE_ROOT; };
+		5388475DA3114086B9193287 /* QSortingSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSortingSection.h; path = QuickDialog/quickdialog/QSortingSection.h; sourceTree = SOURCE_ROOT; };
+		556FFEDB71A3454F8C3472B7 /* QRadioSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRadioSection.m; path = QuickDialog/quickdialog/QRadioSection.m; sourceTree = SOURCE_ROOT; };
+		5683C8A6EAEB4D92AE4EDB8D /* QuickDialogController+Animations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QuickDialogController+Animations.h"; path = "QuickDialog/quickdialog/QuickDialogController+Animations.h"; sourceTree = SOURCE_ROOT; };
+		56DD816B747649FEAC3FF622 /* QSortingSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSortingSection.m; path = QuickDialog/quickdialog/QSortingSection.m; sourceTree = SOURCE_ROOT; };
+		5733809DB9044B9483C44463 /* RKInMemoryManagedObjectCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKInMemoryManagedObjectCache.h; path = RestKit/Code/CoreData/RKInMemoryManagedObjectCache.h; sourceTree = SOURCE_ROOT; };
+		595B66291617446090AA2E7B /* QTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QTextField.h; path = QuickDialog/quickdialog/QTextField.h; sourceTree = SOURCE_ROOT; };
+		5ABA8C6197BE4998BD80F722 /* NSManagedObject+RKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+RKAdditions.m"; path = "RestKit/Code/CoreData/NSManagedObject+RKAdditions.m"; sourceTree = SOURCE_ROOT; };
+		5C3D03F228A1489CA7FB1B63 /* QMapViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMapViewController.m; path = QuickDialog/quickdialog/QMapViewController.m; sourceTree = SOURCE_ROOT; };
+		5E637F59A8C74043978C8F39 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		5EE0390456664E049080D3EE /* RKErrorMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKErrorMessage.h; path = RestKit/Code/ObjectMapping/RKErrorMessage.h; sourceTree = SOURCE_ROOT; };
+		6063443F966745DF8A951B6C /* RKResponseDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKResponseDescriptor.h; path = RestKit/Code/Network/RKResponseDescriptor.h; sourceTree = SOURCE_ROOT; };
+		60B08000DFE249E1AC8FF684 /* QMapElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMapElement.m; path = QuickDialog/quickdialog/QMapElement.m; sourceTree = SOURCE_ROOT; };
+		6152BB2508B4452F82E14E49 /* RKManagedObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKManagedObjectStore.h; path = RestKit/Code/CoreData/RKManagedObjectStore.h; sourceTree = SOURCE_ROOT; };
+		619FC94ECF1B438191F8B3E2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = SOURCE_ROOT; };
+		627B05FBB4F34CB5931F6D35 /* QElement+Appearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QElement+Appearance.m"; path = "QuickDialog/quickdialog/QElement+Appearance.m"; sourceTree = SOURCE_ROOT; };
+		62AB73ED242B49F0AF53FC6B /* RKConnectionDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKConnectionDescription.h; path = RestKit/Code/CoreData/RKConnectionDescription.h; sourceTree = SOURCE_ROOT; };
+		633F196BFE5648C589F1C96C /* RKMIMETypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMIMETypes.h; path = RestKit/Code/Support/RKMIMETypes.h; sourceTree = SOURCE_ROOT; };
+		64876B1ACF0C49DDA3C04E2C /* QuickDialogTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickDialogTableView.m; path = QuickDialog/quickdialog/QuickDialogTableView.m; sourceTree = SOURCE_ROOT; };
+		64BFE7E8DB214E1880BFB4C6 /* QMapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMapViewController.h; path = QuickDialog/quickdialog/QMapViewController.h; sourceTree = SOURCE_ROOT; };
+		64CEA0AC54AF4387B879AFC0 /* ObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectMapping.h; path = RestKit/Code/ObjectMapping.h; sourceTree = SOURCE_ROOT; };
+		65992B0CACFB4A328114C0DF /* RKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKLog.h; path = RestKit/Code/Support/RKLog.h; sourceTree = SOURCE_ROOT; };
+		65B300A7D4EF4B58876E8C9F /* QSelectSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSelectSection.h; path = QuickDialog/quickdialog/QSelectSection.h; sourceTree = SOURCE_ROOT; };
+		67496D503E814F10BE4B31DF /* Network.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Network.h; path = RestKit/Code/Network.h; sourceTree = SOURCE_ROOT; };
+		6784F2374F9A41458746014E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-resources.sh"; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		67C882393E644AF18CF08037 /* RKMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMapping.h; path = RestKit/Code/ObjectMapping/RKMapping.h; sourceTree = SOURCE_ROOT; };
+		6803C7BA140E45A5ADB60C1A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking/AFNetworking.h; sourceTree = SOURCE_ROOT; };
+		6813DB7AE70C4A4780AFD9EB /* RKDictionaryUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKDictionaryUtilities.h; path = RestKit/Code/Support/RKDictionaryUtilities.h; sourceTree = SOURCE_ROOT; };
+		68CC72ECE1E249599413B3C6 /* QuickDialogTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickDialogTableView.h; path = QuickDialog/quickdialog/QuickDialogTableView.h; sourceTree = SOURCE_ROOT; };
+		6B3F59801CE6438D87944A56 /* QSelectItemElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSelectItemElement.h; path = QuickDialog/quickdialog/QSelectItemElement.h; sourceTree = SOURCE_ROOT; };
+		6EECFC0F49464B1C951E0A14 /* QElement+Appearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QElement+Appearance.h"; path = "QuickDialog/quickdialog/QElement+Appearance.h"; sourceTree = SOURCE_ROOT; };
+		702F06A9E0AF40ECB0E3A9AD /* QRootBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRootBuilder.m; path = QuickDialog/quickdialog/QRootBuilder.m; sourceTree = SOURCE_ROOT; };
+		70F09D813D4945F2BFCE721A /* QButtonElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QButtonElement.m; path = QuickDialog/quickdialog/QButtonElement.m; sourceTree = SOURCE_ROOT; };
+		7233D7210C124AC0BF406E16 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		7298F6F1AE8E4D26A6A5150C /* RKHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKHTTPRequestOperation.m; path = RestKit/Code/Network/RKHTTPRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		731F814D9F8F4E4F8844E4F8 /* RKMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKMapping.m; path = RestKit/Code/ObjectMapping/RKMapping.m; sourceTree = SOURCE_ROOT; };
+		7333AD18F57A4ED2A8CCF737 /* QAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QAppearance.h; path = QuickDialog/quickdialog/QAppearance.h; sourceTree = SOURCE_ROOT; };
+		73398A81F3874B1CB7377B93 /* RKMappingOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKMappingOperation.m; path = RestKit/Code/ObjectMapping/RKMappingOperation.m; sourceTree = SOURCE_ROOT; };
+		740CA7A41911400CBF36AA5E /* RKHTTPUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKHTTPUtilities.h; path = RestKit/Code/ObjectMapping/RKHTTPUtilities.h; sourceTree = SOURCE_ROOT; };
+		7474C22EE5EC4B0EBD4E42D0 /* RKURLEncodedSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKURLEncodedSerialization.m; path = RestKit/Code/Support/RKURLEncodedSerialization.m; sourceTree = SOURCE_ROOT; };
+		760FF8BB8E8540A4B92CB0DF /* NSMutableArray+IMSExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+IMSExtensions.h"; path = "QuickDialog/quickdialog/NSMutableArray+IMSExtensions.h"; sourceTree = SOURCE_ROOT; };
+		77AA0698351D45938C04B4CA /* RKURLEncodedSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKURLEncodedSerialization.h; path = RestKit/Code/Support/RKURLEncodedSerialization.h; sourceTree = SOURCE_ROOT; };
+		78192334D3144B3097D50084 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		785D21DC57AF48EAA019A319 /* QImageElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QImageElement.h; path = QuickDialog/quickdialog/QImageElement.h; sourceTree = SOURCE_ROOT; };
+		78CB2CCF5B2D4BD9BB0A5DDE /* lcl_config_components_RK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lcl_config_components_RK.h; path = RestKit/Code/Support/lcl_config_components_RK.h; sourceTree = SOURCE_ROOT; };
+		78F51C40DD0F44F7A97C2A05 /* QWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QWebViewController.m; path = QuickDialog/quickdialog/QWebViewController.m; sourceTree = SOURCE_ROOT; };
+		792F8788B5554E70A7E9CD6D /* RKNSJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKNSJSONSerialization.m; path = RestKit/Code/Support/RKNSJSONSerialization.m; sourceTree = SOURCE_ROOT; };
+		79CE03C847884BB794071CF5 /* QBindingEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBindingEvaluator.h; path = QuickDialog/quickdialog/QBindingEvaluator.h; sourceTree = SOURCE_ROOT; };
+		7B7F43E8606B4ACBAF9DBDC6 /* QAutoEntryElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QAutoEntryElement.m; path = QuickDialog/quickdialog/QAutoEntryElement.m; sourceTree = SOURCE_ROOT; };
+		7BDBF15B9A7146C68EF5EBFC /* QuickDialogController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickDialogController.m; path = QuickDialog/quickdialog/QuickDialogController.m; sourceTree = SOURCE_ROOT; };
+		7CA7C5E4A0A54123A57E588E /* QBadgeTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBadgeTableCell.m; path = QuickDialog/quickdialog/QBadgeTableCell.m; sourceTree = SOURCE_ROOT; };
+		7CC697F09C544EF3A319ED6E /* QRootElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRootElement.h; path = QuickDialog/quickdialog/QRootElement.h; sourceTree = SOURCE_ROOT; };
+		7EEDC899FBBC4926A20E294E /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80787514C4804DE4913EA11A /* RKObjectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKObjectManager.m; path = RestKit/Code/Network/RKObjectManager.m; sourceTree = SOURCE_ROOT; };
+		83509E02D7764C5E8821D53C /* QTextElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QTextElement.h; path = QuickDialog/quickdialog/QTextElement.h; sourceTree = SOURCE_ROOT; };
+		8377670BEAA2410098E20921 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking/AFNetworking/AFXMLRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		83D6736B4F8F4AB48D37A381 /* QDateTimeInlineElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QDateTimeInlineElement.m; path = QuickDialog/quickdialog/QDateTimeInlineElement.m; sourceTree = SOURCE_ROOT; };
+		84F7335FCDB4402E88167232 /* QDateEntryTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QDateEntryTableViewCell.h; path = QuickDialog/quickdialog/QDateEntryTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		87B5F9F8FE2B48F2B93B4E41 /* QLoadingElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLoadingElement.m; path = QuickDialog/quickdialog/QLoadingElement.m; sourceTree = SOURCE_ROOT; };
+		8A00CE4928494EA1A5FA50F5 /* RKDotNetDateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKDotNetDateFormatter.h; path = RestKit/Code/Support/RKDotNetDateFormatter.h; sourceTree = SOURCE_ROOT; };
+		8A15B5B83D844D69B5FA78C3 /* RKErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKErrors.m; path = RestKit/Code/Support/RKErrors.m; sourceTree = SOURCE_ROOT; };
+		8B2F7B7074BE4A4DA9D7D4AE /* RKRelationshipMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKRelationshipMapping.m; path = RestKit/Code/ObjectMapping/RKRelationshipMapping.m; sourceTree = SOURCE_ROOT; };
+		8B4F9F3EA85F4D13BE886057 /* RKRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKRouter.h; path = RestKit/Code/Network/RKRouter.h; sourceTree = SOURCE_ROOT; };
+		8B9FE85FA6BB4DEFB5170976 /* QEmptyListElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QEmptyListElement.h; path = QuickDialog/quickdialog/QEmptyListElement.h; sourceTree = SOURCE_ROOT; };
+		8EE0E433C1154FBD90E06736 /* QRadioItemElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRadioItemElement.h; path = QuickDialog/quickdialog/QRadioItemElement.h; sourceTree = SOURCE_ROOT; };
+		8EED5EDCD0F44082955B96A3 /* QuickDialogDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickDialogDataSource.m; path = QuickDialog/quickdialog/QuickDialogDataSource.m; sourceTree = SOURCE_ROOT; };
+		8F40E46CB9BF408B9293DB72 /* RKPropertyInspector+CoreData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RKPropertyInspector+CoreData.m"; path = "RestKit/Code/CoreData/RKPropertyInspector+CoreData.m"; sourceTree = SOURCE_ROOT; };
+		8FDFAA8BA8434F0D9A117ADA /* QSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSection.h; path = QuickDialog/quickdialog/QSection.h; sourceTree = SOURCE_ROOT; };
+		90C89385C37242839368B4C8 /* RKMappingOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMappingOperation.h; path = RestKit/Code/ObjectMapping/RKMappingOperation.h; sourceTree = SOURCE_ROOT; };
+		90CCE7AD0CB94975B145127E /* QMultilineElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMultilineElement.h; path = QuickDialog/quickdialog/QMultilineElement.h; sourceTree = SOURCE_ROOT; };
+		916955FEC0AA49509049D6CC /* RKRelationshipConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKRelationshipConnectionOperation.m; path = RestKit/Code/CoreData/RKRelationshipConnectionOperation.m; sourceTree = SOURCE_ROOT; };
+		9296F8274A4E46CE8335808E /* QRootElement+JsonBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QRootElement+JsonBuilder.h"; path = "QuickDialog/quickdialog/QRootElement+JsonBuilder.h"; sourceTree = SOURCE_ROOT; };
+		947DE3EBF11A4C1F804494A5 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		94994A07EDCF4309A7CD9084 /* QTextElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QTextElement.m; path = QuickDialog/quickdialog/QTextElement.m; sourceTree = SOURCE_ROOT; };
+		94D7EFFBCCB94FA88A9F026B /* QImageElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QImageElement.m; path = QuickDialog/quickdialog/QImageElement.m; sourceTree = SOURCE_ROOT; };
+		95346D6F51584158A39C459F /* QuickDialogWebController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickDialogWebController.h; path = QuickDialog/quickdialog/QuickDialogWebController.h; sourceTree = SOURCE_ROOT; };
+		959A480406C94264AEFA8E0B /* RKPathUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKPathUtilities.m; path = RestKit/Code/Support/RKPathUtilities.m; sourceTree = SOURCE_ROOT; };
+		96A60B0594014C27AE81A808 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		96B86317A58C417299600CE9 /* RKMIMETypeSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMIMETypeSerialization.h; path = RestKit/Code/Support/RKMIMETypeSerialization.h; sourceTree = SOURCE_ROOT; };
+		9806D52D932849DA8F187028 /* RKRequestOperationSubclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKRequestOperationSubclass.h; path = RestKit/Code/Network/RKRequestOperationSubclass.h; sourceTree = SOURCE_ROOT; };
+		993626AC9CF94937B9535F58 /* RKRouteSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKRouteSet.h; path = RestKit/Code/Network/RKRouteSet.h; sourceTree = SOURCE_ROOT; };
+		993BC7143DCE4EDF8B184AC9 /* RKManagedObjectMappingOperationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKManagedObjectMappingOperationDataSource.m; path = RestKit/Code/CoreData/RKManagedObjectMappingOperationDataSource.m; sourceTree = SOURCE_ROOT; };
+		997377B5EF8D41E0B290EA07 /* PodsDummy_Pods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PodsDummy_Pods.m; path = PodsDummy_Pods.m; sourceTree = SOURCE_ROOT; };
+		99DC421AD1A349368B0FAA9E /* QuickDialogController+Navigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QuickDialogController+Navigation.m"; path = "QuickDialog/quickdialog/QuickDialogController+Navigation.m"; sourceTree = SOURCE_ROOT; };
+		9A41A14A1B724B97BA972676 /* RKPathUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKPathUtilities.h; path = RestKit/Code/Support/RKPathUtilities.h; sourceTree = SOURCE_ROOT; };
+		9A735EF06C9E4EF996FC8CA6 /* SOCKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOCKit.m; path = SOCKit/SOCKit.m; sourceTree = SOURCE_ROOT; };
+		9D2E1D1273F449729081BEAB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		9E0A3512BBEA4C5E8236D60B /* RKRequestDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKRequestDescriptor.m; path = RestKit/Code/Network/RKRequestDescriptor.m; sourceTree = SOURCE_ROOT; };
+		9FC1D5C84E424236914613AF /* RKEntityByAttributeCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKEntityByAttributeCache.m; path = RestKit/Code/CoreData/RKEntityByAttributeCache.m; sourceTree = SOURCE_ROOT; };
+		9FF7FFB297884CFC8737D15F /* QRootBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRootBuilder.h; path = QuickDialog/quickdialog/QRootBuilder.h; sourceTree = SOURCE_ROOT; };
+		A15CDD090EDB4CA1A91D2C32 /* QTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QTextField.m; path = QuickDialog/quickdialog/QTextField.m; sourceTree = SOURCE_ROOT; };
+		A309AB9E128247A3B2A4C899 /* QMapAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMapAnnotation.h; path = QuickDialog/quickdialog/QMapAnnotation.h; sourceTree = SOURCE_ROOT; };
+		A3218D3D459C414E9CC0D75E /* RKObjectMappingOperationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKObjectMappingOperationDataSource.m; path = RestKit/Code/ObjectMapping/RKObjectMappingOperationDataSource.m; sourceTree = SOURCE_ROOT; };
+		A42EF6C71A0747FC8C021E00 /* RKMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMacros.h; path = RestKit/Code/Support/RKMacros.h; sourceTree = SOURCE_ROOT; };
+		A446801B490F45328E60EBD0 /* QEntryElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QEntryElement.h; path = QuickDialog/quickdialog/QEntryElement.h; sourceTree = SOURCE_ROOT; };
+		A4863495EAD44A308E9BC891 /* RKObjectParameterization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKObjectParameterization.m; path = RestKit/Code/Network/RKObjectParameterization.m; sourceTree = SOURCE_ROOT; };
+		A4B40B9E0EE04D3FA2A30041 /* RKMIMETypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKMIMETypes.m; path = RestKit/Code/Support/RKMIMETypes.m; sourceTree = SOURCE_ROOT; };
+		A545794ADDBD44F6BAD263A5 /* QMapElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMapElement.h; path = QuickDialog/quickdialog/QMapElement.h; sourceTree = SOURCE_ROOT; };
+		A5E010417DD74D2FB49442C1 /* RKMappingResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKMappingResult.m; path = RestKit/Code/ObjectMapping/RKMappingResult.m; sourceTree = SOURCE_ROOT; };
+		A66E6C3C3EB044988A849F86 /* QuickDialogStyleProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickDialogStyleProvider.h; path = QuickDialog/quickdialog/QuickDialogStyleProvider.h; sourceTree = SOURCE_ROOT; };
+		A6B51B10AC0C4315BD87022C /* RKAttributeMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKAttributeMapping.m; path = RestKit/Code/ObjectMapping/RKAttributeMapping.m; sourceTree = SOURCE_ROOT; };
+		A93EAF3707A64F14A9E0F9FD /* QEmptyListElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QEmptyListElement.m; path = QuickDialog/quickdialog/QEmptyListElement.m; sourceTree = SOURCE_ROOT; };
+		A9B33EED933E4A98858693AA /* RKPropertyInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKPropertyInspector.h; path = RestKit/Code/ObjectMapping/RKPropertyInspector.h; sourceTree = SOURCE_ROOT; };
+		A9FC8DA3ADDD4DEDBA6A8A7E /* RKDynamicMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKDynamicMapping.h; path = RestKit/Code/ObjectMapping/RKDynamicMapping.h; sourceTree = SOURCE_ROOT; };
+		AAA2A72389A94441B1694DB7 /* RKNSJSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKNSJSONSerialization.h; path = RestKit/Code/Support/RKNSJSONSerialization.h; sourceTree = SOURCE_ROOT; };
+		AC0F4D24648C40149F820062 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC6C5F27DFD4D03B761BA38 /* RKObjectUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKObjectUtilities.m; path = RestKit/Code/ObjectMapping/RKObjectUtilities.m; sourceTree = SOURCE_ROOT; };
+		ACCB7CFD7AAD44FC806560A2 /* QuickDialogDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickDialogDataSource.h; path = QuickDialog/quickdialog/QuickDialogDataSource.h; sourceTree = SOURCE_ROOT; };
+		ACCF2A9CD8AE4726BC738331 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFNetworking/AFImageRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		AD00D0CC091447CDA049788E /* RKRelationshipMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKRelationshipMapping.h; path = RestKit/Code/ObjectMapping/RKRelationshipMapping.h; sourceTree = SOURCE_ROOT; };
+		AD39DCC280174C00BDA3A945 /* RKEntityMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKEntityMapping.m; path = RestKit/Code/CoreData/RKEntityMapping.m; sourceTree = SOURCE_ROOT; };
+		B09B1BA34A3440F2910CF722 /* QCountdownElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCountdownElement.h; path = QuickDialog/quickdialog/QCountdownElement.h; sourceTree = SOURCE_ROOT; };
+		B119F7DEC825410D857DAF91 /* RKManagedObjectImporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKManagedObjectImporter.m; path = RestKit/Code/CoreData/RKManagedObjectImporter.m; sourceTree = SOURCE_ROOT; };
+		B182CF6E77474929AD6A1798 /* LCLNSLog_RK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCLNSLog_RK.h; path = RestKit/Vendor/LibComponentLogging/NSLog/LCLNSLog_RK.h; sourceTree = SOURCE_ROOT; };
+		B565E640C4B04F47B3ADB864 /* RKManagedObjectRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKManagedObjectRequestOperation.m; path = RestKit/Code/Network/RKManagedObjectRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		B586C8E47F0C4A1B9D3B9F7A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
+		B5D0EB69BA47416EB93012AA /* QFloatElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QFloatElement.h; path = QuickDialog/quickdialog/QFloatElement.h; sourceTree = SOURCE_ROOT; };
+		B77A6ED162A74F1AA54DD3B3 /* RKEntityCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKEntityCache.h; path = RestKit/Code/CoreData/RKEntityCache.h; sourceTree = SOURCE_ROOT; };
+		B95E6421B5594B539BCEF747 /* RKMapperOperation_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMapperOperation_Private.h; path = RestKit/Code/ObjectMapping/RKMapperOperation_Private.h; sourceTree = SOURCE_ROOT; };
+		BA33E63E50114D3FBA5E9ADC /* RKConnectionDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKConnectionDescription.m; path = RestKit/Code/CoreData/RKConnectionDescription.m; sourceTree = SOURCE_ROOT; };
+		BBF2B48417B346AFBB7BD19C /* QuickDialogWebController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickDialogWebController.m; path = QuickDialog/quickdialog/QuickDialogWebController.m; sourceTree = SOURCE_ROOT; };
+		BC04899A67C646DDBF621D5E /* RKPropertyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKPropertyMapping.h; path = RestKit/Code/ObjectMapping/RKPropertyMapping.h; sourceTree = SOURCE_ROOT; };
+		BCBE52DA061E4E40A513F2DC /* QRootElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRootElement.m; path = QuickDialog/quickdialog/QRootElement.m; sourceTree = SOURCE_ROOT; };
+		BD392222A77F4ED090865404 /* RKObjectParameterization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKObjectParameterization.h; path = RestKit/Code/Network/RKObjectParameterization.h; sourceTree = SOURCE_ROOT; };
+		BE01253C2BC94AC88CD5646F /* RKObjectRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKObjectRequestOperation.m; path = RestKit/Code/Network/RKObjectRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		BE4ED8F49CBE43DA822930F2 /* RKMapperOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKMapperOperation.h; path = RestKit/Code/ObjectMapping/RKMapperOperation.h; sourceTree = SOURCE_ROOT; };
+		C080C234F2B5415A98AEAEDF /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		C0D5DA8F63D2409A90F8A2C0 /* QuickDialogTableDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickDialogTableDelegate.h; path = QuickDialog/quickdialog/QuickDialogTableDelegate.h; sourceTree = SOURCE_ROOT; };
+		C1AA502341334208B0A55C68 /* lcl_config_logger_RK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lcl_config_logger_RK.h; path = RestKit/Code/Support/lcl_config_logger_RK.h; sourceTree = SOURCE_ROOT; };
+		C1C904266BC84377BD452C08 /* QuickDialogController+Helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QuickDialogController+Helpers.h"; path = "QuickDialog/quickdialog/QuickDialogController+Helpers.h"; sourceTree = SOURCE_ROOT; };
+		C31A2FD3EBB84884A7B66491 /* RKRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKRouter.m; path = RestKit/Code/Network/RKRouter.m; sourceTree = SOURCE_ROOT; };
+		C31DFBF0D4224963A8870D10 /* QRadioSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRadioSection.h; path = QuickDialog/quickdialog/QRadioSection.h; sourceTree = SOURCE_ROOT; };
+		C63D15FE9FB04E15885231C8 /* QFloatElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QFloatElement.m; path = QuickDialog/quickdialog/QFloatElement.m; sourceTree = SOURCE_ROOT; };
+		C73F59020AFA44F9BABAC536 /* QBooleanElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBooleanElement.m; path = QuickDialog/quickdialog/QBooleanElement.m; sourceTree = SOURCE_ROOT; };
+		C80F10D13AD6484F82E6A8B5 /* RKManagedObjectMappingOperationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKManagedObjectMappingOperationDataSource.h; path = RestKit/Code/CoreData/RKManagedObjectMappingOperationDataSource.h; sourceTree = SOURCE_ROOT; };
+		C8697C04AD994B269D8756DA /* QPickerElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QPickerElement.m; path = QuickDialog/quickdialog/QPickerElement.m; sourceTree = SOURCE_ROOT; };
+		C9A1BCEF35054F63B8A20458 /* DOAutocompleteTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOAutocompleteTextField.h; path = QuickDialog/quickdialog/DOAutocompleteTextField.h; sourceTree = SOURCE_ROOT; };
+		CA52990DE58B46E19A8E70B8 /* QDateTimeElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QDateTimeElement.m; path = QuickDialog/quickdialog/QDateTimeElement.m; sourceTree = SOURCE_ROOT; };
+		CBF257CF64BB455AB8619ABE /* RKObjectMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKObjectMapping.m; path = RestKit/Code/ObjectMapping/RKObjectMapping.m; sourceTree = SOURCE_ROOT; };
+		CE4A5D9D123844B8910E26F9 /* RKManagedObjectStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKManagedObjectStore.m; path = RestKit/Code/CoreData/RKManagedObjectStore.m; sourceTree = SOURCE_ROOT; };
+		CEF8CDD7987E474C82DEC47E /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFNetworking/AFJSONRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		D1880570A3544E7ABA5E7FDE /* RKInMemoryManagedObjectCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKInMemoryManagedObjectCache.m; path = RestKit/Code/CoreData/RKInMemoryManagedObjectCache.m; sourceTree = SOURCE_ROOT; };
+		D353C8C4173C46F69ACAFBE1 /* RKObjectMappingOperationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKObjectMappingOperationDataSource.h; path = RestKit/Code/ObjectMapping/RKObjectMappingOperationDataSource.h; sourceTree = SOURCE_ROOT; };
+		D3E621CACC0E406A9B9DFA86 /* RestKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RestKit.h; path = RestKit/Code/RestKit.h; sourceTree = SOURCE_ROOT; };
+		D44E624D6874403FBDB8CC92 /* RKRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKRoute.h; path = RestKit/Code/Network/RKRoute.h; sourceTree = SOURCE_ROOT; };
+		D46516A680664AE1A206CF74 /* NSMutableArray+MoveObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+MoveObject.m"; path = "QuickDialog/quickdialog/NSMutableArray+MoveObject.m"; sourceTree = SOURCE_ROOT; };
+		D5EF4295E3BB46DFBA890668 /* QPickerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QPickerTableViewCell.h; path = QuickDialog/quickdialog/QPickerTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		D640B996EDCD4C52AB1974C3 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		D652B19725A842AAA6ECA784 /* QPickerTabDelimitedStringParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QPickerTabDelimitedStringParser.m; path = QuickDialog/quickdialog/QPickerTabDelimitedStringParser.m; sourceTree = SOURCE_ROOT; };
+		D780F3AB0F8A433B9966C01E /* QMultilineTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMultilineTextViewController.m; path = QuickDialog/quickdialog/QMultilineTextViewController.m; sourceTree = SOURCE_ROOT; };
+		D8519191BF374DCF9F16FE0F /* QRadioItemElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRadioItemElement.m; path = QuickDialog/quickdialog/QRadioItemElement.m; sourceTree = SOURCE_ROOT; };
+		D92A8D10C04046A691899D20 /* QDateTimeElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QDateTimeElement.h; path = QuickDialog/quickdialog/QDateTimeElement.h; sourceTree = SOURCE_ROOT; };
+		D9AC4779AF694BCB8D02498E /* QPickerTabDelimitedStringParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QPickerTabDelimitedStringParser.h; path = QuickDialog/quickdialog/QPickerTabDelimitedStringParser.h; sourceTree = SOURCE_ROOT; };
+		D9DD9101468C453E9BAFA5FE /* QImageTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QImageTableViewCell.h; path = QuickDialog/quickdialog/QImageTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		DAAA8DD0231444849499E0D6 /* QuickDialogController+Loading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QuickDialogController+Loading.m"; path = "QuickDialog/quickdialog/QuickDialogController+Loading.m"; sourceTree = SOURCE_ROOT; };
+		DB1727296585408B828D1023 /* RKValueTransformers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKValueTransformers.h; path = RestKit/Code/ObjectMapping/RKValueTransformers.h; sourceTree = SOURCE_ROOT; };
+		DB9450E68EFC4E2CAE0ADF65 /* QTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QTableViewCell.h; path = QuickDialog/quickdialog/QTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		DE0E0F816A9D4313ADE426A5 /* QMapAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMapAnnotation.m; path = QuickDialog/quickdialog/QMapAnnotation.m; sourceTree = SOURCE_ROOT; };
+		DF2539D11B1E427197570802 /* QBadgeElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBadgeElement.h; path = QuickDialog/quickdialog/QBadgeElement.h; sourceTree = SOURCE_ROOT; };
+		E06373E21CD54044B71DB9FB /* RKResponseDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKResponseDescriptor.m; path = RestKit/Code/Network/RKResponseDescriptor.m; sourceTree = SOURCE_ROOT; };
+		E0BC68845B114B409477EA86 /* QMultilineElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMultilineElement.m; path = QuickDialog/quickdialog/QMultilineElement.m; sourceTree = SOURCE_ROOT; };
+		E3D56BB492C4475996F23B7F /* RKValueTransformers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKValueTransformers.m; path = RestKit/Code/ObjectMapping/RKValueTransformers.m; sourceTree = SOURCE_ROOT; };
+		E48DFA213AE84982AF191510 /* NSManagedObjectContext+RKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+RKAdditions.m"; path = "RestKit/Code/CoreData/NSManagedObjectContext+RKAdditions.m"; sourceTree = SOURCE_ROOT; };
+		E8F8D126E56948E2A327E396 /* QBadgeElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBadgeElement.m; path = QuickDialog/quickdialog/QBadgeElement.m; sourceTree = SOURCE_ROOT; };
+		E935580F6D9943D39506BDF2 /* QAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QAppearance.m; path = QuickDialog/quickdialog/QAppearance.m; sourceTree = SOURCE_ROOT; };
+		E965F3C6B7764CDB959CEF0B /* RKObjectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKObjectManager.h; path = RestKit/Code/Network/RKObjectManager.h; sourceTree = SOURCE_ROOT; };
+		E9B66CAC13CD46F9B128A3CD /* RKDotNetDateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKDotNetDateFormatter.m; path = RestKit/Code/Support/RKDotNetDateFormatter.m; sourceTree = SOURCE_ROOT; };
+		E9BF3D3789CA40A896806565 /* QWebElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QWebElement.m; path = QuickDialog/quickdialog/QWebElement.m; sourceTree = SOURCE_ROOT; };
+		EC333174355040FA8E5BF793 /* RKRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKRoute.m; path = RestKit/Code/Network/RKRoute.m; sourceTree = SOURCE_ROOT; };
+		ED7822779A034D5CAD248B9A /* NSManagedObjectContext+RKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+RKAdditions.h"; path = "RestKit/Code/CoreData/NSManagedObjectContext+RKAdditions.h"; sourceTree = SOURCE_ROOT; };
+		ED8986B7B66F427888755801 /* RKPropertyInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKPropertyInspector.m; path = RestKit/Code/ObjectMapping/RKPropertyInspector.m; sourceTree = SOURCE_ROOT; };
+		EE06E51423334F12A1F43F31 /* QDateEntryTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QDateEntryTableViewCell.m; path = QuickDialog/quickdialog/QDateEntryTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		EE1E94C8327E488B95542A17 /* RKHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKHTTPRequestOperation.h; path = RestKit/Code/Network/RKHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		EF379E4484EA4C4BBC0CF063 /* RKFetchRequestManagedObjectCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKFetchRequestManagedObjectCache.h; path = RestKit/Code/CoreData/RKFetchRequestManagedObjectCache.h; sourceTree = SOURCE_ROOT; };
+		EF9E65054F07464985AFDD71 /* QElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QElement.m; path = QuickDialog/quickdialog/QElement.m; sourceTree = SOURCE_ROOT; };
+		EFF408376FDF4589AE9BA5DF /* QButtonElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QButtonElement.h; path = QuickDialog/quickdialog/QButtonElement.h; sourceTree = SOURCE_ROOT; };
+		F10C3BE6E66845108943FEB2 /* RKResponseMapperOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKResponseMapperOperation.h; path = RestKit/Code/Network/RKResponseMapperOperation.h; sourceTree = SOURCE_ROOT; };
+		F1558CF3A6E04F90B5A0C9A1 /* QImageTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QImageTableViewCell.m; path = QuickDialog/quickdialog/QImageTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		F1ECC421B6B743B99FC62CAB /* QuickDialogController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickDialogController.h; path = QuickDialog/quickdialog/QuickDialogController.h; sourceTree = SOURCE_ROOT; };
+		F20EF967EE2C4F77B4C35C06 /* DOAutocompleteTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOAutocompleteTextField.m; path = QuickDialog/quickdialog/DOAutocompleteTextField.m; sourceTree = SOURCE_ROOT; };
+		F4653151D3684FD692F06D11 /* RKRequestDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKRequestDescriptor.h; path = RestKit/Code/Network/RKRequestDescriptor.h; sourceTree = SOURCE_ROOT; };
+		F58D522614ED439B9E2F5FC9 /* RKISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKISO8601DateFormatter.m; path = RestKit/Code/Support/RKISO8601DateFormatter.m; sourceTree = SOURCE_ROOT; };
+		F5E89935D6D0488B90C617EF /* QElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QElement.h; path = QuickDialog/quickdialog/QElement.h; sourceTree = SOURCE_ROOT; };
+		F7D2D01B62AF46F9B5615E64 /* QRadioElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRadioElement.m; path = QuickDialog/quickdialog/QRadioElement.m; sourceTree = SOURCE_ROOT; };
+		F7EDDF0E21BA432FB400CD5B /* QMultilineTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMultilineTextViewController.h; path = QuickDialog/quickdialog/QMultilineTextViewController.h; sourceTree = SOURCE_ROOT; };
+		F902F087AFA547B4B376A5C4 /* RKISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKISO8601DateFormatter.h; path = RestKit/Code/Support/RKISO8601DateFormatter.h; sourceTree = SOURCE_ROOT; };
+		FAB04ADCFF944F3288081DFA /* RKAttributeMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKAttributeMapping.h; path = RestKit/Code/ObjectMapping/RKAttributeMapping.h; sourceTree = SOURCE_ROOT; };
+		FACEB84FB01B48B68FEBFF6B /* QuickDialogController+Loading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QuickDialogController+Loading.h"; path = "QuickDialog/quickdialog/QuickDialogController+Loading.h"; sourceTree = SOURCE_ROOT; };
+		FB8E96D177E648C087ED67E1 /* RKObjectUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKObjectUtilities.h; path = RestKit/Code/ObjectMapping/RKObjectUtilities.h; sourceTree = SOURCE_ROOT; };
+		FCC0F91125D64AD79B258DF2 /* RKMIMETypeSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKMIMETypeSerialization.m; path = RestKit/Code/Support/RKMIMETypeSerialization.m; sourceTree = SOURCE_ROOT; };
+		FD9A58490E9349FCB6B3AEA5 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFNetworking/AFImageRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		FDBA0CF767C44333BDFBCE01 /* QDynamicDataSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QDynamicDataSection.h; path = QuickDialog/quickdialog/QDynamicDataSection.h; sourceTree = SOURCE_ROOT; };
+		FF696FD447C7425B931BBB31 /* QSelectItemElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSelectItemElement.m; path = QuickDialog/quickdialog/QSelectItemElement.m; sourceTree = SOURCE_ROOT; };
+		FF9683137A854921807BA435 /* QRadioElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRadioElement.h; path = QuickDialog/quickdialog/QRadioElement.h; sourceTree = SOURCE_ROOT; };
+		FF9DE51AAF2B4F85B1331B08 /* RKEntityCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKEntityCache.m; path = RestKit/Code/CoreData/RKEntityCache.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D7968D5C3E4595989E34ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D12C39E8684381B2C013E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7CCC1B63414B7FBD5AFF73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				210DFF5D541D4D8BA631D3B2 /* AFNetworking */,
+				21E82B00264441CE8D335295 /* QuickDialog */,
+				E2C866A50CB2431890422B6C /* RestKit */,
+				CEF8A2F090F94759937536B1 /* SOCKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		210DFF5D541D4D8BA631D3B2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1C4ADC05603C4B09A7BFB699 /* AFHTTPClient.h */,
+				D640B996EDCD4C52AB1974C3 /* AFHTTPRequestOperation.h */,
+				ACCF2A9CD8AE4726BC738331 /* AFImageRequestOperation.h */,
+				CEF8CDD7987E474C82DEC47E /* AFJSONRequestOperation.h */,
+				2C49CA62B80547E6AE32439C /* AFNetworkActivityIndicatorManager.h */,
+				6803C7BA140E45A5ADB60C1A /* AFNetworking.h */,
+				96A60B0594014C27AE81A808 /* AFPropertyListRequestOperation.h */,
+				0126D6FE2D0B4A2FA46BE875 /* AFURLConnectionOperation.h */,
+				8377670BEAA2410098E20921 /* AFXMLRequestOperation.h */,
+				B586C8E47F0C4A1B9D3B9F7A /* UIImageView+AFNetworking.h */,
+				16DFA4E0E94A46BCB0B6C473 /* AFHTTPClient.m */,
+				5E637F59A8C74043978C8F39 /* AFHTTPRequestOperation.m */,
+				FD9A58490E9349FCB6B3AEA5 /* AFImageRequestOperation.m */,
+				26F5A1BE154940B7B030A8FC /* AFJSONRequestOperation.m */,
+				9D2E1D1273F449729081BEAB /* AFNetworkActivityIndicatorManager.m */,
+				78192334D3144B3097D50084 /* AFPropertyListRequestOperation.m */,
+				619FC94ECF1B438191F8B3E2 /* AFURLConnectionOperation.m */,
+				947DE3EBF11A4C1F804494A5 /* AFXMLRequestOperation.m */,
+				C080C234F2B5415A98AEAEDF /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		21E82B00264441CE8D335295 /* QuickDialog */ = {
+			isa = PBXGroup;
+			children = (
+				C9A1BCEF35054F63B8A20458 /* DOAutocompleteTextField.h */,
+				760FF8BB8E8540A4B92CB0DF /* NSMutableArray+IMSExtensions.h */,
+				07E1A9C500624DEEAA9F1208 /* NSMutableArray+MoveObject.h */,
+				7333AD18F57A4ED2A8CCF737 /* QAppearance.h */,
+				05FFB029030A4D569B2EF18C /* QAutoEntryElement.h */,
+				516270D9E7B84C169D038DF2 /* QAutoEntryTableViewCell.h */,
+				DF2539D11B1E427197570802 /* QBadgeElement.h */,
+				1B5DBB97546B4164BFCE7A3A /* QBadgeLabel.h */,
+				11357FA5D12F460298D57FFB /* QBadgeTableCell.h */,
+				79CE03C847884BB794071CF5 /* QBindingEvaluator.h */,
+				3DB35DF35F304D1195C155C8 /* QBooleanElement.h */,
+				EFF408376FDF4589AE9BA5DF /* QButtonElement.h */,
+				B09B1BA34A3440F2910CF722 /* QCountdownElement.h */,
+				84F7335FCDB4402E88167232 /* QDateEntryTableViewCell.h */,
+				D92A8D10C04046A691899D20 /* QDateTimeElement.h */,
+				13A5A0B2477C483CBEB334C4 /* QDateTimeInlineElement.h */,
+				1BA742C3FB224D6FB241A6BF /* QDecimalElement.h */,
+				3C0C7BECC24E43DDA1858CD7 /* QDecimalTableViewCell.h */,
+				FDBA0CF767C44333BDFBCE01 /* QDynamicDataSection.h */,
+				6EECFC0F49464B1C951E0A14 /* QElement+Appearance.h */,
+				F5E89935D6D0488B90C617EF /* QElement.h */,
+				8B9FE85FA6BB4DEFB5170976 /* QEmptyListElement.h */,
+				A446801B490F45328E60EBD0 /* QEntryElement.h */,
+				41DAD568EF704EF5A12DED03 /* QEntryTableViewCell.h */,
+				B5D0EB69BA47416EB93012AA /* QFloatElement.h */,
+				785D21DC57AF48EAA019A319 /* QImageElement.h */,
+				D9DD9101468C453E9BAFA5FE /* QImageTableViewCell.h */,
+				0CC09CA274AF4C9AA0D3A5E4 /* QLabelElement.h */,
+				52497992DB0A46FE9B485B69 /* QLoadingElement.h */,
+				A309AB9E128247A3B2A4C899 /* QMapAnnotation.h */,
+				A545794ADDBD44F6BAD263A5 /* QMapElement.h */,
+				64BFE7E8DB214E1880BFB4C6 /* QMapViewController.h */,
+				90CCE7AD0CB94975B145127E /* QMultilineElement.h */,
+				F7EDDF0E21BA432FB400CD5B /* QMultilineTextViewController.h */,
+				1688C13B5D6141D49F15C3A5 /* QPickerElement.h */,
+				D9AC4779AF694BCB8D02498E /* QPickerTabDelimitedStringParser.h */,
+				D5EF4295E3BB46DFBA890668 /* QPickerTableViewCell.h */,
+				19B227BC59124F459E77E98E /* QPickerValueParser.h */,
+				FF9683137A854921807BA435 /* QRadioElement.h */,
+				8EE0E433C1154FBD90E06736 /* QRadioItemElement.h */,
+				C31DFBF0D4224963A8870D10 /* QRadioSection.h */,
+				9FF7FFB297884CFC8737D15F /* QRootBuilder.h */,
+				9296F8274A4E46CE8335808E /* QRootElement+JsonBuilder.h */,
+				7CC697F09C544EF3A319ED6E /* QRootElement.h */,
+				8FDFAA8BA8434F0D9A117ADA /* QSection.h */,
+				010846E5A43E49EDBA25BA22 /* QSegmentedElement.h */,
+				6B3F59801CE6438D87944A56 /* QSelectItemElement.h */,
+				65B300A7D4EF4B58876E8C9F /* QSelectSection.h */,
+				5388475DA3114086B9193287 /* QSortingSection.h */,
+				DB9450E68EFC4E2CAE0ADF65 /* QTableViewCell.h */,
+				83509E02D7764C5E8821D53C /* QTextElement.h */,
+				595B66291617446090AA2E7B /* QTextField.h */,
+				459639A2A0B6471580DCE520 /* QuickDialog.h */,
+				5683C8A6EAEB4D92AE4EDB8D /* QuickDialogController+Animations.h */,
+				C1C904266BC84377BD452C08 /* QuickDialogController+Helpers.h */,
+				FACEB84FB01B48B68FEBFF6B /* QuickDialogController+Loading.h */,
+				4D4A1D0ED11743E9AB3A65E7 /* QuickDialogController+Navigation.h */,
+				F1ECC421B6B743B99FC62CAB /* QuickDialogController.h */,
+				ACCB7CFD7AAD44FC806560A2 /* QuickDialogDataSource.h */,
+				0885156A0816479EBA0C7F10 /* QuickDialogEntryElementDelegate.h */,
+				A66E6C3C3EB044988A849F86 /* QuickDialogStyleProvider.h */,
+				C0D5DA8F63D2409A90F8A2C0 /* QuickDialogTableDelegate.h */,
+				68CC72ECE1E249599413B3C6 /* QuickDialogTableView.h */,
+				95346D6F51584158A39C459F /* QuickDialogWebController.h */,
+				20E640B5E1744A26B10E7E8E /* QWebElement.h */,
+				165F680DDDD44230AE82127B /* QWebViewController.h */,
+				F20EF967EE2C4F77B4C35C06 /* DOAutocompleteTextField.m */,
+				04E502C5936D436BA6E7CEE7 /* NSMutableArray+IMSExtensions.m */,
+				D46516A680664AE1A206CF74 /* NSMutableArray+MoveObject.m */,
+				E935580F6D9943D39506BDF2 /* QAppearance.m */,
+				7B7F43E8606B4ACBAF9DBDC6 /* QAutoEntryElement.m */,
+				256A27DD0E66418390031AE4 /* QAutoEntryTableViewCell.m */,
+				E8F8D126E56948E2A327E396 /* QBadgeElement.m */,
+				12C0FD3A996146FD8EF84A83 /* QBadgeLabel.m */,
+				7CA7C5E4A0A54123A57E588E /* QBadgeTableCell.m */,
+				29E59E5EE07441B9AC59DB98 /* QBindingEvaluator.m */,
+				C73F59020AFA44F9BABAC536 /* QBooleanElement.m */,
+				70F09D813D4945F2BFCE721A /* QButtonElement.m */,
+				1B64AC942E8D41598128F527 /* QCountdownElement.m */,
+				EE06E51423334F12A1F43F31 /* QDateEntryTableViewCell.m */,
+				CA52990DE58B46E19A8E70B8 /* QDateTimeElement.m */,
+				83D6736B4F8F4AB48D37A381 /* QDateTimeInlineElement.m */,
+				33F11D03F5FB4DCD966948DE /* QDecimalElement.m */,
+				41089F03685B44CCA598532D /* QDecimalTableViewCell.m */,
+				041B667415AA491692B104C9 /* QDynamicDataSection.m */,
+				627B05FBB4F34CB5931F6D35 /* QElement+Appearance.m */,
+				EF9E65054F07464985AFDD71 /* QElement.m */,
+				A93EAF3707A64F14A9E0F9FD /* QEmptyListElement.m */,
+				4F80D9D10A86484997826040 /* QEntryElement.m */,
+				07AB36B88A094F85A0203226 /* QEntryTableViewCell.m */,
+				C63D15FE9FB04E15885231C8 /* QFloatElement.m */,
+				94D7EFFBCCB94FA88A9F026B /* QImageElement.m */,
+				F1558CF3A6E04F90B5A0C9A1 /* QImageTableViewCell.m */,
+				0572E7E32ACD4060B5C47D0E /* QLabelElement.m */,
+				87B5F9F8FE2B48F2B93B4E41 /* QLoadingElement.m */,
+				DE0E0F816A9D4313ADE426A5 /* QMapAnnotation.m */,
+				60B08000DFE249E1AC8FF684 /* QMapElement.m */,
+				5C3D03F228A1489CA7FB1B63 /* QMapViewController.m */,
+				E0BC68845B114B409477EA86 /* QMultilineElement.m */,
+				D780F3AB0F8A433B9966C01E /* QMultilineTextViewController.m */,
+				C8697C04AD994B269D8756DA /* QPickerElement.m */,
+				D652B19725A842AAA6ECA784 /* QPickerTabDelimitedStringParser.m */,
+				1DB5E406581744F6BA89FEBA /* QPickerTableViewCell.m */,
+				F7D2D01B62AF46F9B5615E64 /* QRadioElement.m */,
+				D8519191BF374DCF9F16FE0F /* QRadioItemElement.m */,
+				556FFEDB71A3454F8C3472B7 /* QRadioSection.m */,
+				702F06A9E0AF40ECB0E3A9AD /* QRootBuilder.m */,
+				42474898896E492B8BED60BC /* QRootElement+JsonBuilder.m */,
+				BCBE52DA061E4E40A513F2DC /* QRootElement.m */,
+				1EC10E0025C54C2FA4DE36D5 /* QSection.m */,
+				1BFFBB5079EE4935AD7918B0 /* QSegmentedElement.m */,
+				FF696FD447C7425B931BBB31 /* QSelectItemElement.m */,
+				33954C468B204FDE99919981 /* QSelectSection.m */,
+				56DD816B747649FEAC3FF622 /* QSortingSection.m */,
+				34E25FA95D1C4268AA09006A /* QTableViewCell.m */,
+				94994A07EDCF4309A7CD9084 /* QTextElement.m */,
+				A15CDD090EDB4CA1A91D2C32 /* QTextField.m */,
+				3D65D5E7021E46F39F9C5FD1 /* QuickDialogController+Animations.m */,
+				524B791DF3D54387910EEF44 /* QuickDialogController+Helpers.m */,
+				DAAA8DD0231444849499E0D6 /* QuickDialogController+Loading.m */,
+				99DC421AD1A349368B0FAA9E /* QuickDialogController+Navigation.m */,
+				7BDBF15B9A7146C68EF5EBFC /* QuickDialogController.m */,
+				8EED5EDCD0F44082955B96A3 /* QuickDialogDataSource.m */,
+				1B59977045F54932A1D761CE /* QuickDialogTableDelegate.m */,
+				64876B1ACF0C49DDA3C04E2C /* QuickDialogTableView.m */,
+				BBF2B48417B346AFBB7BD19C /* QuickDialogWebController.m */,
+				E9BF3D3789CA40A896806565 /* QWebElement.m */,
+				78F51C40DD0F44F7A97C2A05 /* QWebViewController.m */,
+			);
+			name = QuickDialog;
+			sourceTree = "<group>";
+		};
+		28408E723409491186A7AE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0F4D24648C40149F820062 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4406DE34E9744D8B803ED3C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EEDC899FBBC4926A20E294E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52E1EFD392D94A18A19BD41D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6784F2374F9A41458746014E /* Pods-resources.sh */,
+				0D2873A832224F1784BA88C9 /* Pods-prefix.pch */,
+				7233D7210C124AC0BF406E16 /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C4D88DA420741E185DC4B78 /* ObjectMapping */ = {
+			isa = PBXGroup;
+			children = (
+				FAB04ADCFF944F3288081DFA /* RKAttributeMapping.h */,
+				A9FC8DA3ADDD4DEDBA6A8A7E /* RKDynamicMapping.h */,
+				5EE0390456664E049080D3EE /* RKErrorMessage.h */,
+				740CA7A41911400CBF36AA5E /* RKHTTPUtilities.h */,
+				BE4ED8F49CBE43DA822930F2 /* RKMapperOperation.h */,
+				B95E6421B5594B539BCEF747 /* RKMapperOperation_Private.h */,
+				67C882393E644AF18CF08037 /* RKMapping.h */,
+				39567D5067C84356964B528E /* RKMappingErrors.h */,
+				90C89385C37242839368B4C8 /* RKMappingOperation.h */,
+				209F9D840C0F4271BF1FB7DA /* RKMappingOperationDataSource.h */,
+				4E584D5F10E843E29433D5A0 /* RKMappingResult.h */,
+				328937AE0FD1407985509437 /* RKObjectMapping.h */,
+				318912B64615400F81F54538 /* RKObjectMappingMatcher.h */,
+				D353C8C4173C46F69ACAFBE1 /* RKObjectMappingOperationDataSource.h */,
+				FB8E96D177E648C087ED67E1 /* RKObjectUtilities.h */,
+				A9B33EED933E4A98858693AA /* RKPropertyInspector.h */,
+				BC04899A67C646DDBF621D5E /* RKPropertyMapping.h */,
+				AD00D0CC091447CDA049788E /* RKRelationshipMapping.h */,
+				DB1727296585408B828D1023 /* RKValueTransformers.h */,
+				A6B51B10AC0C4315BD87022C /* RKAttributeMapping.m */,
+				3B363A50A48A4CF89E05BD68 /* RKDynamicMapping.m */,
+				4428047399D7428AAE6E9658 /* RKErrorMessage.m */,
+				3EFE00087BEC4C678BAD8C57 /* RKHTTPUtilities.m */,
+				186D3A67556648AD923272F0 /* RKMapperOperation.m */,
+				731F814D9F8F4E4F8844E4F8 /* RKMapping.m */,
+				73398A81F3874B1CB7377B93 /* RKMappingOperation.m */,
+				A5E010417DD74D2FB49442C1 /* RKMappingResult.m */,
+				CBF257CF64BB455AB8619ABE /* RKObjectMapping.m */,
+				2538E4857E224C55A0F5344F /* RKObjectMappingMatcher.m */,
+				A3218D3D459C414E9CC0D75E /* RKObjectMappingOperationDataSource.m */,
+				ACC6C5F27DFD4D03B761BA38 /* RKObjectUtilities.m */,
+				ED8986B7B66F427888755801 /* RKPropertyInspector.m */,
+				369FA8C461AF459D8DB18AB1 /* RKPropertyMapping.m */,
+				8B2F7B7074BE4A4DA9D7D4AE /* RKRelationshipMapping.m */,
+				E3D56BB492C4475996F23B7F /* RKValueTransformers.m */,
+			);
+			name = ObjectMapping;
+			sourceTree = "<group>";
+		};
+		8F19B785F5444A1FADA68DC7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1D811C24841C6BFE40B10 /* NSManagedObject+RKAdditions.h */,
+				ED7822779A034D5CAD248B9A /* NSManagedObjectContext+RKAdditions.h */,
+				62AB73ED242B49F0AF53FC6B /* RKConnectionDescription.h */,
+				18F85527D12145738D489174 /* RKEntityByAttributeCache.h */,
+				B77A6ED162A74F1AA54DD3B3 /* RKEntityCache.h */,
+				0251A83DBCF0457BB8748C16 /* RKEntityMapping.h */,
+				EF379E4484EA4C4BBC0CF063 /* RKFetchRequestManagedObjectCache.h */,
+				5733809DB9044B9483C44463 /* RKInMemoryManagedObjectCache.h */,
+				402AF7A06DCF456E9F966F82 /* RKManagedObjectCaching.h */,
+				0C23F64753304492B46321C1 /* RKManagedObjectImporter.h */,
+				C80F10D13AD6484F82E6A8B5 /* RKManagedObjectMappingOperationDataSource.h */,
+				6152BB2508B4452F82E14E49 /* RKManagedObjectStore.h */,
+				1B2E075E9B6A4169AC151721 /* RKPropertyInspector+CoreData.h */,
+				130F8D6A59E34017A71ABBDB /* RKRelationshipConnectionOperation.h */,
+				5ABA8C6197BE4998BD80F722 /* NSManagedObject+RKAdditions.m */,
+				E48DFA213AE84982AF191510 /* NSManagedObjectContext+RKAdditions.m */,
+				BA33E63E50114D3FBA5E9ADC /* RKConnectionDescription.m */,
+				9FC1D5C84E424236914613AF /* RKEntityByAttributeCache.m */,
+				FF9DE51AAF2B4F85B1331B08 /* RKEntityCache.m */,
+				AD39DCC280174C00BDA3A945 /* RKEntityMapping.m */,
+				06D06691739744BD9B246D71 /* RKFetchRequestManagedObjectCache.m */,
+				D1880570A3544E7ABA5E7FDE /* RKInMemoryManagedObjectCache.m */,
+				B119F7DEC825410D857DAF91 /* RKManagedObjectImporter.m */,
+				993BC7143DCE4EDF8B184AC9 /* RKManagedObjectMappingOperationDataSource.m */,
+				CE4A5D9D123844B8910E26F9 /* RKManagedObjectStore.m */,
+				8F40E46CB9BF408B9293DB72 /* RKPropertyInspector+CoreData.m */,
+				916955FEC0AA49509049D6CC /* RKRelationshipConnectionOperation.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		9CFB6B9D35764166AF157FF0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				51F847FD3F8A4800A55A32D7 /* CoreData.h */,
+				67496D503E814F10BE4B31DF /* Network.h */,
+				64CEA0AC54AF4387B879AFC0 /* ObjectMapping.h */,
+				D3E621CACC0E406A9B9DFA86 /* RestKit.h */,
+				4FDEED18455D4323AE41DD44 /* Search.h */,
+				1A943E9C0411481CAFB6B03B /* Support.h */,
+				400530E2C9684A6080F8EEBE /* Testing.h */,
+				03A876D7D2C04C67A4AD342F /* lcl_RK.h */,
+				0F85503662BF472C9B1A6EDC /* lcl_RK.m */,
+				B182CF6E77474929AD6A1798 /* LCLNSLog_RK.h */,
+				0EC8985953AB4A2996CF9506 /* LCLNSLog_RK.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A8DFC353875E4FBD848AABD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52E1EFD392D94A18A19BD41D /* Pods */,
+				997377B5EF8D41E0B290EA07 /* PodsDummy_Pods.m */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B7199E34FBF84BEC897A1A7D = {
+			isa = PBXGroup;
+			children = (
+				28408E723409491186A7AE70 /* Products */,
+				4406DE34E9744D8B803ED3C9 /* Frameworks */,
+				1D7CCC1B63414B7FBD5AFF73 /* Pods */,
+				A8DFC353875E4FBD848AABD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CD71A7AE9AA64029B67BC7ED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E94C8327E488B95542A17 /* RKHTTPRequestOperation.h */,
+				279E1793D9A0409484FA83EA /* RKManagedObjectRequestOperation.h */,
+				E965F3C6B7764CDB959CEF0B /* RKObjectManager.h */,
+				BD392222A77F4ED090865404 /* RKObjectParameterization.h */,
+				108637F7BBA84A94A32ACAD7 /* RKObjectRequestOperation.h */,
+				4596FF581B964425BBEE96FA /* RKPaginator.h */,
+				F4653151D3684FD692F06D11 /* RKRequestDescriptor.h */,
+				9806D52D932849DA8F187028 /* RKRequestOperationSubclass.h */,
+				6063443F966745DF8A951B6C /* RKResponseDescriptor.h */,
+				F10C3BE6E66845108943FEB2 /* RKResponseMapperOperation.h */,
+				D44E624D6874403FBDB8CC92 /* RKRoute.h */,
+				8B4F9F3EA85F4D13BE886057 /* RKRouter.h */,
+				993626AC9CF94937B9535F58 /* RKRouteSet.h */,
+				7298F6F1AE8E4D26A6A5150C /* RKHTTPRequestOperation.m */,
+				B565E640C4B04F47B3ADB864 /* RKManagedObjectRequestOperation.m */,
+				80787514C4804DE4913EA11A /* RKObjectManager.m */,
+				A4863495EAD44A308E9BC891 /* RKObjectParameterization.m */,
+				BE01253C2BC94AC88CD5646F /* RKObjectRequestOperation.m */,
+				308762813CE5484D9B54519C /* RKPaginator.m */,
+				9E0A3512BBEA4C5E8236D60B /* RKRequestDescriptor.m */,
+				E06373E21CD54044B71DB9FB /* RKResponseDescriptor.m */,
+				0B04BB91659F4D02A524B998 /* RKResponseMapperOperation.m */,
+				EC333174355040FA8E5BF793 /* RKRoute.m */,
+				C31A2FD3EBB84884A7B66491 /* RKRouter.m */,
+				49B0C80EEA0A4DD3968F16A6 /* RKRouteSet.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		CEF8A2F090F94759937536B1 /* SOCKit */ = {
+			isa = PBXGroup;
+			children = (
+				46E7A0922A5A49CD94EE1F53 /* SOCKit.h */,
+				9A735EF06C9E4EF996FC8CA6 /* SOCKit.m */,
+			);
+			name = SOCKit;
+			sourceTree = "<group>";
+		};
+		E2C866A50CB2431890422B6C /* RestKit */ = {
+			isa = PBXGroup;
+			children = (
+				9CFB6B9D35764166AF157FF0 /* Core */,
+				CD71A7AE9AA64029B67BC7ED /* Network */,
+				F05464732F8D41C19FDAE9A4 /* Support */,
+				8F19B785F5444A1FADA68DC7 /* CoreData */,
+				5C4D88DA420741E185DC4B78 /* ObjectMapping */,
+			);
+			name = RestKit;
+			sourceTree = "<group>";
+		};
+		F05464732F8D41C19FDAE9A4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				78CB2CCF5B2D4BD9BB0A5DDE /* lcl_config_components_RK.h */,
+				2B320B39C3224AF5A2AC87BD /* lcl_config_extensions_RK.h */,
+				C1AA502341334208B0A55C68 /* lcl_config_logger_RK.h */,
+				6813DB7AE70C4A4780AFD9EB /* RKDictionaryUtilities.h */,
+				8A00CE4928494EA1A5FA50F5 /* RKDotNetDateFormatter.h */,
+				01C92288FB8842D8BCF2B505 /* RKErrors.h */,
+				F902F087AFA547B4B376A5C4 /* RKISO8601DateFormatter.h */,
+				65992B0CACFB4A328114C0DF /* RKLog.h */,
+				A42EF6C71A0747FC8C021E00 /* RKMacros.h */,
+				633F196BFE5648C589F1C96C /* RKMIMETypes.h */,
+				96B86317A58C417299600CE9 /* RKMIMETypeSerialization.h */,
+				AAA2A72389A94441B1694DB7 /* RKNSJSONSerialization.h */,
+				1654C2D6EB2F4AB6860F0911 /* RKPathMatcher.h */,
+				9A41A14A1B724B97BA972676 /* RKPathUtilities.h */,
+				1CC5B51C73E04788AF323D01 /* RKSerialization.h */,
+				77AA0698351D45938C04B4CA /* RKURLEncodedSerialization.h */,
+				524D89FECDBC42E68A0FCB89 /* RKDictionaryUtilities.m */,
+				E9B66CAC13CD46F9B128A3CD /* RKDotNetDateFormatter.m */,
+				8A15B5B83D844D69B5FA78C3 /* RKErrors.m */,
+				F58D522614ED439B9E2F5FC9 /* RKISO8601DateFormatter.m */,
+				13D36F4D68914499882814CF /* RKLog.m */,
+				A4B40B9E0EE04D3FA2A30041 /* RKMIMETypes.m */,
+				FCC0F91125D64AD79B258DF2 /* RKMIMETypeSerialization.m */,
+				792F8788B5554E70A7E9CD6D /* RKNSJSONSerialization.m */,
+				528C69B4180643418EA2BE44 /* RKPathMatcher.m */,
+				959A480406C94264AEFA8E0B /* RKPathUtilities.m */,
+				7474C22EE5EC4B0EBD4E42D0 /* RKURLEncodedSerialization.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7197457961B54DC895287D3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2724C1C10D4A9093BBD7AC /* AFHTTPClient.h in Headers */,
+				3238BEC3A5634C24B175C33C /* AFHTTPRequestOperation.h in Headers */,
+				5C4C08186B1649119F6C9F3E /* AFImageRequestOperation.h in Headers */,
+				8DA54F15FCB04E38B31FD74F /* AFJSONRequestOperation.h in Headers */,
+				7C211685D16D404BA2C2A55D /* AFNetworkActivityIndicatorManager.h in Headers */,
+				09A7AF032BC64FC6A6CD5091 /* AFNetworking.h in Headers */,
+				E35C5C8B34734F9E80ACE9F7 /* AFPropertyListRequestOperation.h in Headers */,
+				373527BDBE254A9B8F497FF9 /* AFURLConnectionOperation.h in Headers */,
+				1F73F142BAC049EE914E5DB0 /* AFXMLRequestOperation.h in Headers */,
+				8F4B05F618574F77982C54D2 /* UIImageView+AFNetworking.h in Headers */,
+				E19C7835777A416586B1C094 /* DOAutocompleteTextField.h in Headers */,
+				DAFB96C5AB464880902123CF /* NSMutableArray+IMSExtensions.h in Headers */,
+				B97EEEDD846448D59B36A20E /* NSMutableArray+MoveObject.h in Headers */,
+				FCDE1A97D9244CDFB902328E /* QAppearance.h in Headers */,
+				65A8604D5DE94394A78BB9EA /* QAutoEntryElement.h in Headers */,
+				4AA16B9FB4B848EBB0692F2E /* QAutoEntryTableViewCell.h in Headers */,
+				1360EC979D324E39B2C0CAB7 /* QBadgeElement.h in Headers */,
+				1CD3118FDE6A4CF7B8836FB5 /* QBadgeLabel.h in Headers */,
+				5349290C1E8D4780BDCF546D /* QBadgeTableCell.h in Headers */,
+				FD58EDD1F19C4DC5B4C31F21 /* QBindingEvaluator.h in Headers */,
+				7EB1518AD64A4F8F8AD340E0 /* QBooleanElement.h in Headers */,
+				997DD691CCB34C0288EF41A7 /* QButtonElement.h in Headers */,
+				A60F0DC3D3294BE392B18A17 /* QCountdownElement.h in Headers */,
+				F2368567F4A14C5CA9EC6002 /* QDateEntryTableViewCell.h in Headers */,
+				EA76B698CF4044C3A55BA0A2 /* QDateTimeElement.h in Headers */,
+				2936A837C3F44106BF5D1691 /* QDateTimeInlineElement.h in Headers */,
+				5CB009DC1E9F42A29E5941CC /* QDecimalElement.h in Headers */,
+				D8ED7B344B324B77BBEC79EB /* QDecimalTableViewCell.h in Headers */,
+				74555437CDB149D4BA127194 /* QDynamicDataSection.h in Headers */,
+				80950EA229E6481F9DEEAFE0 /* QElement+Appearance.h in Headers */,
+				E4511155A7E34DA7AEBADD51 /* QElement.h in Headers */,
+				ABC845D77FA04F299C2E8D71 /* QEmptyListElement.h in Headers */,
+				823CFECDBEBA42078E869E08 /* QEntryElement.h in Headers */,
+				EA40E1C307F14322882C9B8E /* QEntryTableViewCell.h in Headers */,
+				EDDB22C2804A482AA96DEB71 /* QFloatElement.h in Headers */,
+				25DBC7D32F394978B5FB6220 /* QImageElement.h in Headers */,
+				25DE332F1EE0424A8BAAC6FC /* QImageTableViewCell.h in Headers */,
+				E94A05491CAC4E968125BC7D /* QLabelElement.h in Headers */,
+				D36B968FE71D4186BC6E142B /* QLoadingElement.h in Headers */,
+				FF8A30B1FB4E4707BD414699 /* QMapAnnotation.h in Headers */,
+				9E85879EFA4E46D282C50CD5 /* QMapElement.h in Headers */,
+				616E494C814F48E590F0AE76 /* QMapViewController.h in Headers */,
+				ED2D2CD4CEF54566BC0E274F /* QMultilineElement.h in Headers */,
+				99B3C235C7A043FBA5995545 /* QMultilineTextViewController.h in Headers */,
+				1C8BB015B614491EB9D8B91E /* QPickerElement.h in Headers */,
+				6A1AA016EE0248C49463E859 /* QPickerTabDelimitedStringParser.h in Headers */,
+				215D66667ABD4B25A5CD7B3C /* QPickerTableViewCell.h in Headers */,
+				E0A0D98C726F49E7A46129A6 /* QPickerValueParser.h in Headers */,
+				A137FB3C37A843D5AFE774BF /* QRadioElement.h in Headers */,
+				7BA1C58B3F264A2794136AF0 /* QRadioItemElement.h in Headers */,
+				85407356906347ECB23BD157 /* QRadioSection.h in Headers */,
+				051B4043EFFE4715A4F0C1E2 /* QRootBuilder.h in Headers */,
+				1053F3CACFDE4FCF91574019 /* QRootElement+JsonBuilder.h in Headers */,
+				2D925B56595749EDB8F79F2A /* QRootElement.h in Headers */,
+				4EDD234DCB084989BEE877AE /* QSection.h in Headers */,
+				3F7F799B40174B3E89C00704 /* QSegmentedElement.h in Headers */,
+				7AEE17B739D44FFF923C2A50 /* QSelectItemElement.h in Headers */,
+				D16E3A417BAB483A9882FF6F /* QSelectSection.h in Headers */,
+				63445AC639ED41B2A5DB12BF /* QSortingSection.h in Headers */,
+				B3957A7EC5F140EEADAF3461 /* QTableViewCell.h in Headers */,
+				560BBCB6CF0C476788AF2FC8 /* QTextElement.h in Headers */,
+				083845D5ADEC440C93F931CC /* QTextField.h in Headers */,
+				7B23CF0AC28A457E8FB682D6 /* QuickDialog.h in Headers */,
+				046DF06D96174D4EB07D77CB /* QuickDialogController+Animations.h in Headers */,
+				D365DF20AFB841A3AFA52A02 /* QuickDialogController+Helpers.h in Headers */,
+				7214896DB53D40728B554627 /* QuickDialogController+Loading.h in Headers */,
+				E70F7542AF28421EA1C2FB00 /* QuickDialogController+Navigation.h in Headers */,
+				1639138DE2E942B78C893316 /* QuickDialogController.h in Headers */,
+				C9F2425262B344A0BD41FFC2 /* QuickDialogDataSource.h in Headers */,
+				AAD90554033040D99CF2336B /* QuickDialogEntryElementDelegate.h in Headers */,
+				4DED25A325A64BACB202EF71 /* QuickDialogStyleProvider.h in Headers */,
+				DBA1CE7E800A4C488565D5E1 /* QuickDialogTableDelegate.h in Headers */,
+				05C0FA676D5145B1B4B92FAD /* QuickDialogTableView.h in Headers */,
+				C2282A4364DE4BF497937915 /* QuickDialogWebController.h in Headers */,
+				4546338FB5EB4A55B3C5A276 /* QWebElement.h in Headers */,
+				896FA392924F4F88886F0F0F /* QWebViewController.h in Headers */,
+				94F1D2EF28354B91B69D9BAE /* CoreData.h in Headers */,
+				8B4B56F437C6430B924461C6 /* Network.h in Headers */,
+				647D1F539CCF4B0290564596 /* ObjectMapping.h in Headers */,
+				F0CA8715EE4E48E293944E9B /* RestKit.h in Headers */,
+				86B84D6718EC4AE6992AA2E8 /* Search.h in Headers */,
+				672AD084864B4D88A78B07B8 /* Support.h in Headers */,
+				92ACF20CC80B452A8503A3AC /* Testing.h in Headers */,
+				F869CBD21E12478C9119E853 /* lcl_RK.h in Headers */,
+				01A1A0F9466B4A2D9D7F8158 /* LCLNSLog_RK.h in Headers */,
+				3ADDDA78F64F4DC8BBF3FCCA /* RKHTTPRequestOperation.h in Headers */,
+				9BF6017190F2467297914CCA /* RKManagedObjectRequestOperation.h in Headers */,
+				4FDBBE5CEC744607813041BC /* RKObjectManager.h in Headers */,
+				96E7CCBA6B88426193AA8D17 /* RKObjectParameterization.h in Headers */,
+				27B8FABA0548467B8F5CBC02 /* RKObjectRequestOperation.h in Headers */,
+				72654EE60BB345EF9DBCB4CA /* RKPaginator.h in Headers */,
+				36ECC2E54C4D411E9ADAB23E /* RKRequestDescriptor.h in Headers */,
+				C00CCA87C08E48C091F61C19 /* RKRequestOperationSubclass.h in Headers */,
+				112B060EACF44C07B24DA0F5 /* RKResponseDescriptor.h in Headers */,
+				B82030E7421248C38DA6B8AB /* RKResponseMapperOperation.h in Headers */,
+				AF377E5F893E48D3B39868CC /* RKRoute.h in Headers */,
+				C0C0C06CEA5D4AADBB5325BE /* RKRouter.h in Headers */,
+				ACC05A366B9A4898A6E7E373 /* RKRouteSet.h in Headers */,
+				0F0AC064B9724CAE97B0A8B3 /* lcl_config_components_RK.h in Headers */,
+				36A5E033430C4A3A9FD3035B /* lcl_config_extensions_RK.h in Headers */,
+				C861A54BF37741C0B2CAF92F /* lcl_config_logger_RK.h in Headers */,
+				EBFA9ACE6BEE412CA01F3C61 /* RKDictionaryUtilities.h in Headers */,
+				A332A532242F4F38A5E4DCAE /* RKDotNetDateFormatter.h in Headers */,
+				DE0D0D501FE0455FA9883994 /* RKErrors.h in Headers */,
+				C166BCA5E1D149D794052BF4 /* RKISO8601DateFormatter.h in Headers */,
+				F51E3399070E4CF78C2C949B /* RKLog.h in Headers */,
+				0206FF5E3D7A43A490F1D6ED /* RKMacros.h in Headers */,
+				0902BE3C977B413D837698EF /* RKMIMETypes.h in Headers */,
+				B0CCD43F4031463C968464EC /* RKMIMETypeSerialization.h in Headers */,
+				7DC96838266341B5B8F364B6 /* RKNSJSONSerialization.h in Headers */,
+				56F10688B10341C4AA650070 /* RKPathMatcher.h in Headers */,
+				CF09D1B2D57B435395854184 /* RKPathUtilities.h in Headers */,
+				5D304616AA6B45F9B75FBF9A /* RKSerialization.h in Headers */,
+				84C50BAD7A1845E2A5BFE09C /* RKURLEncodedSerialization.h in Headers */,
+				03CC51D0FCE2480D93AF5C17 /* NSManagedObject+RKAdditions.h in Headers */,
+				B82D3C971B3C4D46B14E796E /* NSManagedObjectContext+RKAdditions.h in Headers */,
+				2E203B0DAFB649D1B7D4AA4E /* RKConnectionDescription.h in Headers */,
+				DFBB8812114A42639222307F /* RKEntityByAttributeCache.h in Headers */,
+				B219BAC33B094253B4140E22 /* RKEntityCache.h in Headers */,
+				AC0E9E7D559F4C7390A094BF /* RKEntityMapping.h in Headers */,
+				A42B5563290A45BA8EABD79F /* RKFetchRequestManagedObjectCache.h in Headers */,
+				C0BE57FDC2BB4A7E934ACCC5 /* RKInMemoryManagedObjectCache.h in Headers */,
+				DF3FD177E24642DDB16BBF20 /* RKManagedObjectCaching.h in Headers */,
+				CD1BDCA6EACA4583B24C6039 /* RKManagedObjectImporter.h in Headers */,
+				8EF8BC041C624FA788E669E7 /* RKManagedObjectMappingOperationDataSource.h in Headers */,
+				B59025B2568F4AAC8AEA5F15 /* RKManagedObjectStore.h in Headers */,
+				C1195DF2F2144059989B96D1 /* RKPropertyInspector+CoreData.h in Headers */,
+				AD02AAAC163C4A65A987001A /* RKRelationshipConnectionOperation.h in Headers */,
+				6501DD20390D43CEB1C2DA73 /* RKAttributeMapping.h in Headers */,
+				1C28BEB6823846949D3D6986 /* RKDynamicMapping.h in Headers */,
+				23CE102D2C414C98AA460883 /* RKErrorMessage.h in Headers */,
+				ECF6A258CF5E4180B56A1FF1 /* RKHTTPUtilities.h in Headers */,
+				B632064DF62844B780AE1AC3 /* RKMapperOperation.h in Headers */,
+				A905743DA51E4920AEECADB1 /* RKMapperOperation_Private.h in Headers */,
+				C74E228D5114468D963F5665 /* RKMapping.h in Headers */,
+				0A25B72578214ACBA744844C /* RKMappingErrors.h in Headers */,
+				AAB674C0AF9B44EEA7F240EF /* RKMappingOperation.h in Headers */,
+				37897AF398B848C3B4ADA705 /* RKMappingOperationDataSource.h in Headers */,
+				0A17520D5A524D14980CF44D /* RKMappingResult.h in Headers */,
+				347B8FAA8AC34642B7F72EB7 /* RKObjectMapping.h in Headers */,
+				A22E80AFB0C241B49F985588 /* RKObjectMappingMatcher.h in Headers */,
+				6D6D5F800BB741948A55697B /* RKObjectMappingOperationDataSource.h in Headers */,
+				F684FDAC02B74EA4B4A8BEA6 /* RKObjectUtilities.h in Headers */,
+				B8D1C2CA329B41FD9D0D8FDF /* RKPropertyInspector.h in Headers */,
+				F5F360DCC9464A1399455BE0 /* RKPropertyMapping.h in Headers */,
+				E7B23C9CEA9F4D1B97B167DC /* RKRelationshipMapping.h in Headers */,
+				364CF4E4EED94086AD092028 /* RKValueTransformers.h in Headers */,
+				8F765A81B19D4D1186D0A1B1 /* SOCKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7CA6D9E19F97498C92A2E0AB /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2D13F404C94ED9B7625FDD /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				AAD7B2B9898A4913A2029335 /* Sources */,
+				18D7968D5C3E4595989E34ED /* Frameworks */,
+				7197457961B54DC895287D3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = AC0F4D24648C40149F820062 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E8D65A67B444129A21F337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 6229C5EAF6244707BE4839A5 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7199E34FBF84BEC897A1A7D;
+			productRefGroup = 28408E723409491186A7AE70 /* Products */;
+			projectReferences = (
+			);
+			targets = (
+				7CA6D9E19F97498C92A2E0AB /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD7B2B9898A4913A2029335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD0574770374E1786BA73F8 /* AFHTTPClient.m in Sources */,
+				1ADD4BEC02274738BF45BAB6 /* AFHTTPRequestOperation.m in Sources */,
+				0948EE1FABD649D7888A44C2 /* AFImageRequestOperation.m in Sources */,
+				3E161BD34BC54DC3B11E3DD6 /* AFJSONRequestOperation.m in Sources */,
+				750FA41979734EE0A607679A /* AFNetworkActivityIndicatorManager.m in Sources */,
+				2EB7545DD5144217A418FD14 /* AFPropertyListRequestOperation.m in Sources */,
+				C012B4295A5C4863AFF6F4FC /* AFURLConnectionOperation.m in Sources */,
+				9947F755231C4E65BDD2E628 /* AFXMLRequestOperation.m in Sources */,
+				2BC763BC39A64984895D56C2 /* UIImageView+AFNetworking.m in Sources */,
+				A01DD5D6FA3E4E3CBE6682D7 /* DOAutocompleteTextField.m in Sources */,
+				6652F829C304402AB03562E1 /* NSMutableArray+IMSExtensions.m in Sources */,
+				A7FF29A6B9F2459796446950 /* NSMutableArray+MoveObject.m in Sources */,
+				BBD746A288F747A183446D24 /* QAppearance.m in Sources */,
+				0795C359BF4D49A09A8B28A5 /* QAutoEntryElement.m in Sources */,
+				BC3EEAF3144E4224927F1193 /* QAutoEntryTableViewCell.m in Sources */,
+				F8F3B7541C174955A267972B /* QBadgeElement.m in Sources */,
+				F12AE277EFDF4415AB94541A /* QBadgeLabel.m in Sources */,
+				376B03DD902C40E6BE24FE48 /* QBadgeTableCell.m in Sources */,
+				5EC749107556496191250034 /* QBindingEvaluator.m in Sources */,
+				4D74B9B3D15D4DB6A6D4E790 /* QBooleanElement.m in Sources */,
+				0D579015BB894D5185CA5932 /* QButtonElement.m in Sources */,
+				7346403CA53B4A3197A8E696 /* QCountdownElement.m in Sources */,
+				4859940954DC4302BD67E3A4 /* QDateEntryTableViewCell.m in Sources */,
+				AD713EB92355446BA918C444 /* QDateTimeElement.m in Sources */,
+				34D410FC3B7D453AA1F2682B /* QDateTimeInlineElement.m in Sources */,
+				0D1FDA6DC9F441CDBB37E3D7 /* QDecimalElement.m in Sources */,
+				1AD9DFF038BE4214B9B2F2BD /* QDecimalTableViewCell.m in Sources */,
+				2A868D56AC5B435CA3509DEB /* QDynamicDataSection.m in Sources */,
+				4C76A4FF37C94DD5B167B6A5 /* QElement+Appearance.m in Sources */,
+				5E8424FD6E4F44688BD92438 /* QElement.m in Sources */,
+				BAA52E53BB024B0CA02E42D8 /* QEmptyListElement.m in Sources */,
+				3B7FFB6D20A041CB911FE21B /* QEntryElement.m in Sources */,
+				FC6B2E7ADDC24A92B1B27F7E /* QEntryTableViewCell.m in Sources */,
+				A00CB8416DC64AA1A84AE2F7 /* QFloatElement.m in Sources */,
+				0D123E0A204B4EF9B45BEF1A /* QImageElement.m in Sources */,
+				B2C5F1F3EF554B1E8D006005 /* QImageTableViewCell.m in Sources */,
+				6CA9BDD96B364FAEA36A9E41 /* QLabelElement.m in Sources */,
+				F29AE47AA9394DAE8F04CA34 /* QLoadingElement.m in Sources */,
+				168724738BFD49458342BF1A /* QMapAnnotation.m in Sources */,
+				249A057B484540DF8379EADE /* QMapElement.m in Sources */,
+				986C3CCC610F4521B42B63B7 /* QMapViewController.m in Sources */,
+				DDF46A9150C64FF19D9A1E91 /* QMultilineElement.m in Sources */,
+				37E694A4C5B046C4B3D48B05 /* QMultilineTextViewController.m in Sources */,
+				4E8B452719734CEC9A575786 /* QPickerElement.m in Sources */,
+				2EC4EA9F8AC14885BCD2D39D /* QPickerTabDelimitedStringParser.m in Sources */,
+				D12A422FEB1B43BAB169FC2E /* QPickerTableViewCell.m in Sources */,
+				BBA507AA8E434E2098F79190 /* QRadioElement.m in Sources */,
+				882E9680430643FEBCC836EE /* QRadioItemElement.m in Sources */,
+				9AAC1657BBE042DFA8C2C32F /* QRadioSection.m in Sources */,
+				8B5827270F574A3BA864CDD1 /* QRootBuilder.m in Sources */,
+				CD6C15FDEBCF42B3BF21A8F1 /* QRootElement+JsonBuilder.m in Sources */,
+				1DE6854954ED4BEC9DC9782F /* QRootElement.m in Sources */,
+				9F0EA3577970490FA7FB84A7 /* QSection.m in Sources */,
+				2FC4DF0EB85840AF98D72600 /* QSegmentedElement.m in Sources */,
+				619AEFDEDD7D4EC989093D30 /* QSelectItemElement.m in Sources */,
+				C72170E7464D4BD7951308CE /* QSelectSection.m in Sources */,
+				F12549B505384DF7915C08EF /* QSortingSection.m in Sources */,
+				240FBBE6D2D444E2888C72AC /* QTableViewCell.m in Sources */,
+				68EE4CD5638745DC93019F9A /* QTextElement.m in Sources */,
+				11226F3B82FE434FA028AA6A /* QTextField.m in Sources */,
+				7CEC7A72759A47869B78D41E /* QuickDialogController+Animations.m in Sources */,
+				2D1922B6B9AB49D7AF57E5C5 /* QuickDialogController+Helpers.m in Sources */,
+				0894B961604E4AA191E665DB /* QuickDialogController+Loading.m in Sources */,
+				8E24CD9606A64FA4A6FD64C8 /* QuickDialogController+Navigation.m in Sources */,
+				0C73E69D352645E2BE62216E /* QuickDialogController.m in Sources */,
+				C02B9F541F5B4A3488914B29 /* QuickDialogDataSource.m in Sources */,
+				44D8451B9D2C479A8BD3EB74 /* QuickDialogTableDelegate.m in Sources */,
+				7A727E5E70104CDA97537948 /* QuickDialogTableView.m in Sources */,
+				F7B144A579874273ADBD1590 /* QuickDialogWebController.m in Sources */,
+				9B4B70E524E04903A61B6727 /* QWebElement.m in Sources */,
+				2DB5297716B541D98DE865E3 /* QWebViewController.m in Sources */,
+				6E6820AB453D478A8853A997 /* lcl_RK.m in Sources */,
+				A340DE86799E44C89B558623 /* LCLNSLog_RK.m in Sources */,
+				D919A0D589214031B8C94CE2 /* RKHTTPRequestOperation.m in Sources */,
+				F0F292DCB9D549AB998F53CA /* RKManagedObjectRequestOperation.m in Sources */,
+				10F8887CA7194AAE8B155F72 /* RKObjectManager.m in Sources */,
+				CA94FC0DE196439BA2DF1E85 /* RKObjectParameterization.m in Sources */,
+				7DB91EE11AED442EB0DDA340 /* RKObjectRequestOperation.m in Sources */,
+				225C7CA295DD441085967D65 /* RKPaginator.m in Sources */,
+				B4A990204F784A6EAC64D58A /* RKRequestDescriptor.m in Sources */,
+				79830EC7D3884D5FADE7CB9C /* RKResponseDescriptor.m in Sources */,
+				613B0267237840DE8265045E /* RKResponseMapperOperation.m in Sources */,
+				1D5D003E8DCB4BCCA497EA4D /* RKRoute.m in Sources */,
+				183E08211DFE4E4F8CC8A477 /* RKRouter.m in Sources */,
+				C6E2575730214D1292C41BF7 /* RKRouteSet.m in Sources */,
+				6005EE44B94A45DAA951E9AB /* RKDictionaryUtilities.m in Sources */,
+				AF2ABB5F73154D8795B6A1E3 /* RKDotNetDateFormatter.m in Sources */,
+				07AF4D80690C413184BA07EC /* RKErrors.m in Sources */,
+				408323F222DB447CB0E088EE /* RKISO8601DateFormatter.m in Sources */,
+				A303FBC7F6694DEF8F73C974 /* RKLog.m in Sources */,
+				6C1D0FC6465C4807839541A1 /* RKMIMETypes.m in Sources */,
+				60E99B6E24A64F8B8DF53F59 /* RKMIMETypeSerialization.m in Sources */,
+				CBBECE5EF2F045AA9D266931 /* RKNSJSONSerialization.m in Sources */,
+				9E41010138CA4EFABFDCB1A9 /* RKPathMatcher.m in Sources */,
+				8D91D626ED694269B696DBE9 /* RKPathUtilities.m in Sources */,
+				6B2B684243EB4829A5C0EDF1 /* RKURLEncodedSerialization.m in Sources */,
+				766189675B0343A4A42F78CF /* NSManagedObject+RKAdditions.m in Sources */,
+				E5D7F50FFBE44581940D1911 /* NSManagedObjectContext+RKAdditions.m in Sources */,
+				F9F3B7BADF634E8FAD99A8EE /* RKConnectionDescription.m in Sources */,
+				9C564A5EC09E465B94834ADE /* RKEntityByAttributeCache.m in Sources */,
+				707F51ABFC034A90987EC24F /* RKEntityCache.m in Sources */,
+				DCA89FDC52B94A95B146770C /* RKEntityMapping.m in Sources */,
+				90ECB7C471554A1BB5EB948E /* RKFetchRequestManagedObjectCache.m in Sources */,
+				5CED89201CC5487898FF2AE6 /* RKInMemoryManagedObjectCache.m in Sources */,
+				0FF36B880A084E9386F9015A /* RKManagedObjectImporter.m in Sources */,
+				5E5552B31E054638859F089F /* RKManagedObjectMappingOperationDataSource.m in Sources */,
+				9069FAB2431642E9AC631371 /* RKManagedObjectStore.m in Sources */,
+				BD04C8006889447D9B367BB1 /* RKPropertyInspector+CoreData.m in Sources */,
+				7CCA3605B4C443A781B71B46 /* RKRelationshipConnectionOperation.m in Sources */,
+				C467878A02784FB99BA18935 /* RKAttributeMapping.m in Sources */,
+				0E87132562B041B8B72F15BE /* RKDynamicMapping.m in Sources */,
+				15F3446AC9C747AB8300C013 /* RKErrorMessage.m in Sources */,
+				EFCB4B37C4EA482E9B63FA36 /* RKHTTPUtilities.m in Sources */,
+				D6531F9C36C244028CAC9513 /* RKMapperOperation.m in Sources */,
+				2486231EE2904CC1A7C2DCCF /* RKMapping.m in Sources */,
+				348E78322E63475886D50EB4 /* RKMappingOperation.m in Sources */,
+				410C2D65D2514478979943D7 /* RKMappingResult.m in Sources */,
+				608E049E42DA4266A8F786C7 /* RKObjectMapping.m in Sources */,
+				33CC68EE410144B991AED25B /* RKObjectMappingMatcher.m in Sources */,
+				B7C028537EEB49CFB2D7E641 /* RKObjectMappingOperationDataSource.m in Sources */,
+				1123FD881689419D8949D6B8 /* RKObjectUtilities.m in Sources */,
+				63C1BFAB297544428940D1BD /* RKPropertyInspector.m in Sources */,
+				D027309AFD1D4B1DAB6EDB73 /* RKPropertyMapping.m in Sources */,
+				206D140A9D1A450EA305064F /* RKRelationshipMapping.m in Sources */,
+				8C66CC90190745E7A29F4FD8 /* RKValueTransformers.m in Sources */,
+				2CB77914ACF54B1B95B487BF /* SOCKit.m in Sources */,
+				338FC4C1144D4CB8A5F7DA7E /* PodsDummy_Pods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18681766651143519EF4A27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4024BCA5B5EF47E6BDF0B4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7233D7210C124AC0BF406E16 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		944FD4F6D4EA45DFA574D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CFF10DB0BDB14B3D8B8A179A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7233D7210C124AC0BF406E16 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6229C5EAF6244707BE4839A5 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18681766651143519EF4A27C /* Release */,
+				944FD4F6D4EA45DFA574D5BF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2D13F404C94ED9B7625FDD /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4024BCA5B5EF47E6BDF0B4B3 /* Release */,
+				CFF10DB0BDB14B3D8B8A179A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E8D65A67B444129A21F337 /* Project object */;
+}

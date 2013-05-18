@@ -1,0 +1,40 @@
+Endpoint GET http://api.ean.com
+Booking Endpoint POST https://book.api.ean.com
+
+#Hotel List
+GET http://api.ean.com/ean-services/rs/hotel/v3/list?
+
+#Room Availability
+GET http://api.ean.com/ean‑services/rs/hotel/v3/avail?
+
+#Book reservation
+POST https://book.api.ean.com/ean-services/rs/hotel/v3/res?
+
+#Itenerary Request
+GET http://api.ean.com/ean‑services/rs/hotel/v3/itin?
+
+#Cancel Reservation
+GET http://api.ean.com/ean-services/rs/hotel/v3/cancel?
+
+#Hotel Collect Rate Rules
+GET http://api.ean.com/ean‑services/rs/hotel/v3/rules?
+
+#Room images
+GET http://api.ean.com/ean‑services/rs/hotel/v3/roomImages?
+
+#Payment Types
+GET http://api.ean.com/ean‑services/rs/hotel/v3/paymentInfo?
+
+#Ping
+GET http://api.ean.com/ean‑services/rs/hotel/v3/ping?
+
+#Geo Search
+GET http://api.ean.com/ean‑services/rs/hotel/v3/geoSearch?
+
+#Alternative Properties
+GET http://api.ean.com/ean‑services/rs/hotel/v3/altProps?
+
+#Hotel Information
+GET http://api.ean.com/ean-services/rs/hotel/v3/info?
+
+
