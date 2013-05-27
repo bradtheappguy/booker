@@ -33,11 +33,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-  [self.tableView registerNib:[UINib nibWithNibName:@"HotelCell" bundle:nil] forCellReuseIdentifier:@"HotelCell"];
-  [self.tableView setRowHeight:100.0f];
+    [self.tableView registerNib:[UINib nibWithNibName:@"HotelCell" bundle:nil] forCellReuseIdentifier:@"HotelCell"];
+    [self.tableView setRowHeight:100.0f];
   
-  
-
   
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -48,7 +46,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [self.navigationController setNavigationBarHidden:NO animated:YES];
-  self.title = [NSString stringWithFormat:@"%d results",self.hotels.count];
+    self.title = [NSString stringWithFormat:@"%d results",self.hotels.count];
 }
 
 

@@ -12,6 +12,7 @@
 #import "HotelListResponse.h"
 #import "HotelInformationResponse.h"
 #import "HotelRoomAvailabilityResponse.h"
+#import "HotelRoomCancellationResponse.h"
 
 @interface ExpediaAPIClient : AFHTTPClient {
   RKObjectManager *objectManager;
@@ -38,6 +39,11 @@
 - (void)performRoomAvailabilityWithParamaters:(NSDictionary *)params
                                       success:(void (^)(HotelRoomAvailabilityResponse *hotelListResponse))success
                                       failure:(void (^)(NSError *error))failure;
+
+- (void)performCancelReservationWithParamaters:(NSDictionary *)params
+                                      success:(void (^)(HotelRoomCancellationResponse *hotelCancelResponse))success
+                                      failure:(void (^)(NSError *error))failure;
+
 @property (nonatomic) NSString *apiKey;
 @property (nonatomic) NSString *apiSecret;
 

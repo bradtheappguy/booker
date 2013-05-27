@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E16E2C91753647200326A2E /* ReservationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16E2C71753647200326A2E /* ReservationsViewController.m */; };
+		6E16E2CA1753647200326A2E /* ReservationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E16E2C81753647200326A2E /* ReservationsViewController.xib */; };
+		6E16E2CF1753672900326A2E /* ReservationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16E2CE1753672900326A2E /* ReservationCell.m */; };
+		6E16E2D11753674D00326A2E /* ReservationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E16E2D01753674D00326A2E /* ReservationCell.xib */; };
+		6E16E2D51753813700326A2E /* ReservationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16E2D31753813600326A2E /* ReservationDetailViewController.m */; };
+		6E16E2D61753813700326A2E /* ReservationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E16E2D41753813600326A2E /* ReservationDetailViewController.xib */; };
+		6E16E2D91753945900326A2E /* HotelRoomCancellationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16E2D81753945900326A2E /* HotelRoomCancellationResponse.m */; };
 		CECCFADF36A04FEE83C8C395 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C610D9ED984FE1814DFDBD /* libPods.a */; };
 		E30C997E17061BCF00FFFD24 /* EanWsError.m in Sources */ = {isa = PBXBuildFile; fileRef = E30C997D17061BCF00FFFD24 /* EanWsError.m */; };
 		E30C998117062F2C00FFFD24 /* LocationInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E30C998017062F2C00FFFD24 /* LocationInfoResponse.m */; };
@@ -86,6 +93,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E16E2C61753647200326A2E /* ReservationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationsViewController.h; sourceTree = "<group>"; };
+		6E16E2C71753647200326A2E /* ReservationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationsViewController.m; sourceTree = "<group>"; };
+		6E16E2C81753647200326A2E /* ReservationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationsViewController.xib; sourceTree = "<group>"; };
+		6E16E2CD1753672900326A2E /* ReservationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationCell.h; sourceTree = "<group>"; };
+		6E16E2CE1753672900326A2E /* ReservationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationCell.m; sourceTree = "<group>"; };
+		6E16E2D01753674D00326A2E /* ReservationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationCell.xib; sourceTree = "<group>"; };
+		6E16E2D21753813600326A2E /* ReservationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationDetailViewController.h; sourceTree = "<group>"; };
+		6E16E2D31753813600326A2E /* ReservationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationDetailViewController.m; sourceTree = "<group>"; };
+		6E16E2D41753813600326A2E /* ReservationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationDetailViewController.xib; sourceTree = "<group>"; };
+		6E16E2D71753945900326A2E /* HotelRoomCancellationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelRoomCancellationResponse.h; sourceTree = "<group>"; };
+		6E16E2D81753945900326A2E /* HotelRoomCancellationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelRoomCancellationResponse.m; sourceTree = "<group>"; };
 		94C610D9ED984FE1814DFDBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C780BCEFC6814CF981E80A8A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		E30C997C17061BCF00FFFD24 /* EanWsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EanWsError.h; sourceTree = "<group>"; };
@@ -223,6 +241,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E16E2CC1753670600326A2E /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6E16E2CD1753672900326A2E /* ReservationCell.h */,
+				6E16E2CE1753672900326A2E /* ReservationCell.m */,
+				6E16E2D01753674D00326A2E /* ReservationCell.xib */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
 		E30C997817061B9700FFFD24 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +296,8 @@
 				E3C737EC173B89AA007078B8 /* RoomGroup.m */,
 				E3C737EE173B8A2A007078B8 /* Room.h */,
 				E3C737EF173B8A2B007078B8 /* Room.m */,
+				6E16E2D71753945900326A2E /* HotelRoomCancellationResponse.h */,
+				6E16E2D81753945900326A2E /* HotelRoomCancellationResponse.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -331,6 +361,7 @@
 		E3D6E3D3170407C800372A7C /* Booker */ = {
 			isa = PBXGroup;
 			children = (
+				6E16E2CC1753670600326A2E /* TableView Cells */,
 				E30C997817061B9700FFFD24 /* Models */,
 				E3B7351E1704EB8200B2697C /* Requests */,
 				E3D6E3DC170407C800372A7C /* BSAppDelegate.h */,
@@ -364,6 +395,12 @@
 				E396C837171540B900F789E1 /* BSPersonalInfoViewController.h */,
 				E396C838171540B900F789E1 /* BSPersonalInfoViewController.m */,
 				E396C839171540BA00F789E1 /* BSPersonalInfoViewController.xib */,
+				6E16E2C61753647200326A2E /* ReservationsViewController.h */,
+				6E16E2C71753647200326A2E /* ReservationsViewController.m */,
+				6E16E2C81753647200326A2E /* ReservationsViewController.xib */,
+				6E16E2D21753813600326A2E /* ReservationDetailViewController.h */,
+				6E16E2D31753813600326A2E /* ReservationDetailViewController.m */,
+				6E16E2D41753813600326A2E /* ReservationDetailViewController.xib */,
 			);
 			path = Booker;
 			sourceTree = "<group>";
@@ -491,6 +528,9 @@
 				E348EF9A171153F500298D53 /* RoomRateDetailViewController.xib in Resources */,
 				E396C8321715344500F789E1 /* GTMNSString+HTML.h in Resources */,
 				E396C83B171540BA00F789E1 /* BSPersonalInfoViewController.xib in Resources */,
+				6E16E2CA1753647200326A2E /* ReservationsViewController.xib in Resources */,
+				6E16E2D11753674D00326A2E /* ReservationCell.xib in Resources */,
+				6E16E2D61753813700326A2E /* ReservationDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +617,10 @@
 				E3C737ED173B89AC007078B8 /* RoomGroup.m in Sources */,
 				E3C737F0173B8A2D007078B8 /* Room.m in Sources */,
 				E3C737F3173B919B007078B8 /* NSString+CreditCardVAlidation.m in Sources */,
+				6E16E2C91753647200326A2E /* ReservationsViewController.m in Sources */,
+				6E16E2CF1753672900326A2E /* ReservationCell.m in Sources */,
+				6E16E2D51753813700326A2E /* ReservationDetailViewController.m in Sources */,
+				6E16E2D91753945900326A2E /* HotelRoomCancellationResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,7 +719,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -700,7 +744,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -715,6 +759,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Booker/Booker-Prefix.pch";
 				INFOPLIST_FILE = "Booker/Booker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -727,6 +772,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Booker/Booker-Prefix.pch";
 				INFOPLIST_FILE = "Booker/Booker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

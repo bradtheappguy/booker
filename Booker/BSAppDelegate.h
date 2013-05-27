@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "ExpediaAPIClient.h"
 
+#define theAppDelegate ((BSAppDelegate *)[UIApplication sharedApplication].delegate)
+
 @interface BSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
@@ -20,8 +22,10 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
-@property (strong, nonatomic) UINavigationController *navigationController;
+@property (strong, nonatomic) UITabBarController *tabController;
 
 @property (strong, nonatomic) UISplitViewController *splitViewController;
+
+@property (strong, nonatomic) NSMutableArray *mReservationArray;
 
 @end

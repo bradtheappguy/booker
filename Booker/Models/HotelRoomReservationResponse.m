@@ -7,6 +7,7 @@
 //
 
 #import "HotelRoomReservationResponse.h"
+#import "BSAppDelegate.h"
 
 @implementation HotelRoomReservationResponse
 -(id) initWithDictionary:(NSDictionary *)dictionary {
@@ -41,6 +42,10 @@
     self.rateInfo = [[RateInfo alloc] initWithDictionary:[dictionary objectForKey:@"RateInfo"]];
     
     self.confirmationNumbers = [dictionary objectForKey:@"confirmationNumbers"];
+      
+      [theAppDelegate.mReservationArray addObject:dictionary];
+      [[NSUserDefaults standardUserDefaults] setObject:theAppDelegate.mReservationArray forKey:@"reservationArray"];
+      [[NSUserDefaults standardUserDefaults] synchronize];
   }
   return self;
 }

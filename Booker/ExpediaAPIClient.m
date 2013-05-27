@@ -166,4 +166,29 @@ static NSString *kBaseURL = @"http://api.ean.com";
         }];
 }
 
+- (void)performCancelReservationWithParamaters:(NSDictionary *)params
+                                success:(void (^)(HotelRoomCancellationResponse *hotelCancelResponse))success
+                                failure:(void (^)(NSError *error))failure {
+    NSString *path=@"ean-services/rs/hotel/v3/cancel";
+    [self getPath:path
+       parameters:params
+          success:^(AFHTTPRequestOperation *operation, id JSON) {
+              JSON = [NSJSONSerialization JSONObjectWithData:JSON options:0 error:nil];
+              HotelRoomCancellationResponse *response = [[HotelRoomCancellationResponse alloc] initWithDictionary:[JSON objectForKey:@"HotelRoomCancellationResponse"]];
+              if (response.eanWsError) {
+                  failure([NSError errorWithDomain:@"cx.bradsmith.ean" code:1 userInfo:@{NSLocalizedDescriptionKey: [response.eanWsError presentationMessage]}]);
+                  return;
+              }
+              else if (response) {
+                  success(response);
+              }
+              else {
+                  failure([NSError errorWithDomain:@"cx.bradsmith.ean" code:1 userInfo:@{NSLocalizedDescriptionKey: @"Expected data not returned"}]);
+              }
+          }
+          failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+              failure(error);
+          }];
+}
+
 @end

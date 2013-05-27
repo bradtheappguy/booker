@@ -12,12 +12,14 @@
 #import "BSDetailViewController.h"
 #import "BSHotelSearchViewController.h"
 #import "ExpediaBookingAPIClient.h"
+#import "ReservationsViewController.h"
 
 @implementation BSAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -65,19 +67,35 @@
                                                             NSLog(@"%@",[error localizedDescription]);
                                                           }];
   
-  
 
-  
-  
-  
+    NSUserDefaults *standardUserDefaults = [NSUserDefaults standardUserDefaults];
+    if (standardUserDefaults) {
+        self.mReservationArray = (NSMutableArray *) [standardUserDefaults objectForKey:@"reservationArray"];
+    }
+    if (!self.mReservationArray) {
+        self.mReservationArray = [[NSMutableArray alloc] init];
+    }
+ 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   
 
   // Override point for customization after application launch.
   if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+
       BSHotelSearchViewController *masterViewController = [[BSHotelSearchViewController alloc] initWithNibName:@"BSHotelSearchViewController" bundle:nil];
-      self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
-      self.window.rootViewController = self.navigationController;
+      UINavigationController *searchNavController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
+      searchNavController.navigationBar.hidden = YES;
+
+      ReservationsViewController *reservationVC = [[ReservationsViewController alloc] initWithNibName:@"ReservationsViewController" bundle:nil];
+      UINavigationController *reservationNavController = [[UINavigationController alloc] initWithRootViewController:reservationVC];
+      reservationNavController.navigationBar.hidden = YES;
+      
+      NSArray *viewControllersArray = [[NSArray alloc] initWithObjects:searchNavController, reservationNavController, nil];
+      
+      self.tabController = [[UITabBarController alloc] init];
+      [self.tabController setViewControllers:viewControllersArray animated:YES];
+      self.window.rootViewController = self.tabController;
+
       //masterViewController.managedObjectContext = self.managedObjectContext;
   } else {
       BSMasterViewController *masterViewController = [[BSMasterViewController alloc] initWithNibName:@"BSMasterViewController_iPad" bundle:nil];
@@ -86,7 +104,7 @@
       BSDetailViewController *detailViewController = [[BSDetailViewController alloc] initWithNibName:@"BSDetailViewController_iPad" bundle:nil];
       UINavigationController *detailNavigationController = [[UINavigationController alloc] initWithRootViewController:detailViewController];
   	
-  	masterViewController.detailViewController = detailViewController;
+      masterViewController.detailViewController = detailViewController;
       
       self.splitViewController = [[UISplitViewController alloc] init];
       self.splitViewController.delegate = detailViewController;
