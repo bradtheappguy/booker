@@ -68,15 +68,7 @@
                                                           }];
   
 
-    NSUserDefaults *standardUserDefaults = [NSUserDefaults standardUserDefaults];
-    if (standardUserDefaults) {
-        self.mReservationArray = (NSMutableArray *) [standardUserDefaults objectForKey:@"reservationArray"];
-    }
-    if (!self.mReservationArray) {
-        self.mReservationArray = [[NSMutableArray alloc] init];
-    }
- 
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   
 
   // Override point for customization after application launch.

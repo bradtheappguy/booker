@@ -13,6 +13,7 @@
 #import "RoomRateDetailViewController.h"
 #import "ExpediaAPIClient.h"
 #import "RoomType.h"
+#import "MBProgressHUD.h"
 
 @interface HotelDetailViewController () {
   HotelHeaderView *header;
@@ -130,6 +131,9 @@
 -(void) setHotelSummary:(HotelSummarie *)hotelSummary {
   _hotelSummary = hotelSummary;
   NSString *hotelId = [hotelSummary.hotelId stringValue];
+    
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.labelText = NSLocalizedString(@"LoadingLabel", nil);
   [[ExpediaAPIClient sharedClient] performHotelInfoWithParamaters:@{@"hotelId": hotelId}
                                                           success:^(HotelInformationResponse  *response) {
                                                             NSLog(@"%@",response);
@@ -145,9 +149,11 @@
                                                                 @"arrivalDate": self.arrivalDate,
                                                                 @"departureDate": self.departureDate
                                                              } success:nil failure:nil];*/
+                                                              [hud hide:YES];
                                                           }
                                                           failure:^(NSError *error){
                                                             NSLog(@"%@",[error localizedDescription]);
+                                                              [hud hide:YES];
                                                           }];
 }
 @end

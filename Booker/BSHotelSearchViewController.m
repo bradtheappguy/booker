@@ -9,6 +9,7 @@
 #import "BSHotelSearchViewController.h"
 #import "ExpediaAPIClient.h"
 #import "HotelListViewController.h"
+#import "MBProgressHUD.h"
 
 @interface BSHotelSearchViewController ()
 
@@ -48,6 +49,9 @@
 }
 
 - (IBAction)searchHotelsButtonPressed:(UIButton *)sender {
+    
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.labelText = NSLocalizedString(@"LoadingLabel", nil);
   [[ExpediaAPIClient sharedClient] performHotelListWithParamaters:@{@"destinationString": self.locationTextField.text,
                                                                     @"arrivalDate": self.checkinTextField.text,
                                                                     @"departureDate": self.checkoutTextField.text,
@@ -62,9 +66,11 @@
                                                             vc.hotels = [response hotelSummaries];
                                                             [self.navigationController pushViewController:vc animated:YES];
                                                             NSLog(@"GOT");
+                                                              [hud hide:YES];
                                                           }
                                                           failure:^(NSError *error){
                                                             NSLog(@"Error: %@",[error localizedDescription]);
+                                                              [hud hide:YES];
                                                           }];
 }
 @end

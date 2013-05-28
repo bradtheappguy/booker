@@ -8,7 +8,7 @@
 
 #import "ReservationsViewController.h"
 #import "ReservationCell.h"
-#import "BSAppDelegate.h"
+#import "LocalDataModel.h"
 #import "ReservationDetailViewController.h"
 
 @interface ReservationsViewController ()
@@ -55,7 +55,7 @@
     [self.tableView reloadData];
     
     self.navigationController.navigationBar.hidden = NO;
-    self.title = [NSString stringWithFormat:@"%d results",theAppDelegate.mReservationArray.count];
+    self.title = [NSString stringWithFormat:@"%d results",[[LocalDataModel sharedLocalData] reservationArray].count];
 }
 
 - (void)didReceiveMemoryWarning
@@ -75,7 +75,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return theAppDelegate.mReservationArray.count;
+    return [[LocalDataModel sharedLocalData] reservationArray].count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -86,7 +86,7 @@
         cell = (ReservationCell *)[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    NSDictionary *hotelInfoDic = (NSDictionary *)[theAppDelegate.mReservationArray objectAtIndex:indexPath.row];
+    NSDictionary *hotelInfoDic = (NSDictionary *)[[[LocalDataModel sharedLocalData] reservationArray] objectAtIndex:indexPath.row];
     
     cell.checkinDateLabel.text = [hotelInfoDic objectForKey:@"arrivalDate"];
     cell.checkoutDateLabel.text = [hotelInfoDic objectForKey:@"departureDate"];

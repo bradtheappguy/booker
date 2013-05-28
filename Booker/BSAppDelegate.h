@@ -26,6 +26,5 @@
 
 @property (strong, nonatomic) UISplitViewController *splitViewController;
 
-@property (strong, nonatomic) NSMutableArray *mReservationArray;
 
 @end

@@ -7,8 +7,8 @@
 //
 
 #import "ReservationDetailViewController.h"
-#import "BSAppDelegate.h"
 #import "ExpediaAPIClient.h"
+#import "LocalDataModel.h"
 
 @interface ReservationDetailViewController ()
 
@@ -32,7 +32,7 @@
 }
 
 - (void) viewWillAppear:(BOOL)animated {
-    NSDictionary *hotelInfoDic = (NSDictionary *)[theAppDelegate.mReservationArray objectAtIndex:self.nIndex];
+    NSDictionary *hotelInfoDic = (NSDictionary *)[[[LocalDataModel sharedLocalData] reservationArray] objectAtIndex:self.nIndex];
     
     self.checkinDateLabel.text = [hotelInfoDic objectForKey:@"arrivalDate"];
     self.checkoutDateLabel.text = [hotelInfoDic objectForKey:@"departureDate"];
@@ -51,7 +51,7 @@
 
 - (IBAction)onCancelButtonClicked:(id)sender {
 
-    NSDictionary *hotelInfoDic = (NSDictionary *)[theAppDelegate.mReservationArray objectAtIndex:self.nIndex];
+    NSDictionary *hotelInfoDic = (NSDictionary *)[[[LocalDataModel sharedLocalData] reservationArray] objectAtIndex:self.nIndex];
     NSNumber *itineraryId = [hotelInfoDic objectForKey:@"itineraryId"];
     NSString *emailAddress = [hotelInfoDic objectForKey:@"email"];
     NSString *confirmationNumbers  = [hotelInfoDic objectForKey:@"confirmationNumbers"];
@@ -59,18 +59,12 @@
 //    [[ExpediaAPIClient sharedClient] performCancelReservationWithParamaters:@{@"itineraryId": itineraryId, @"email": @"brad@radiuymon.com", @"confirmationNumber": confirmationNumbers, }
 //                                                            success:^(HotelRoomCancellationResponse *response){
 //
-//                                                                [theAppDelegate.mReservationArray removeObjectAtIndex:self.nIndex];
-//                                                                [[NSUserDefaults standardUserDefaults] setObject:theAppDelegate.mReservationArray forKey:@"reservationArray"];
-//                                                                [[NSUserDefaults standardUserDefaults] synchronize];
-//
 //                                                            }
 //                                                            failure:^(NSError *error){
 //                                                                NSLog(@"Error: %@",[error localizedDescription]);
 //                                                            }];
     
-    [theAppDelegate.mReservationArray removeObjectAtIndex:self.nIndex];
-    [[NSUserDefaults standardUserDefaults] setObject:theAppDelegate.mReservationArray forKey:@"reservationArray"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
+    [[LocalDataModel sharedLocalData] removeElementWithIndex:self.nIndex];
     
     [self.navigationController popViewControllerAnimated:YES];
     

@@ -14,6 +14,9 @@
 		6E16E2D51753813700326A2E /* ReservationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16E2D31753813600326A2E /* ReservationDetailViewController.m */; };
 		6E16E2D61753813700326A2E /* ReservationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E16E2D41753813600326A2E /* ReservationDetailViewController.xib */; };
 		6E16E2D91753945900326A2E /* HotelRoomCancellationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16E2D81753945900326A2E /* HotelRoomCancellationResponse.m */; };
+		6EAA700E175419460086A798 /* LocalDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA700D175419440086A798 /* LocalDataModel.m */; };
+		6EAA701A17543F370086A798 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA701917543F370086A798 /* MBProgressHUD.m */; };
+		6EAA7023175447FC0086A798 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA7025175447FC0086A798 /* Localizable.strings */; };
 		CECCFADF36A04FEE83C8C395 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C610D9ED984FE1814DFDBD /* libPods.a */; };
 		E30C997E17061BCF00FFFD24 /* EanWsError.m in Sources */ = {isa = PBXBuildFile; fileRef = E30C997D17061BCF00FFFD24 /* EanWsError.m */; };
 		E30C998117062F2C00FFFD24 /* LocationInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E30C998017062F2C00FFFD24 /* LocationInfoResponse.m */; };
@@ -104,6 +107,18 @@
 		6E16E2D41753813600326A2E /* ReservationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationDetailViewController.xib; sourceTree = "<group>"; };
 		6E16E2D71753945900326A2E /* HotelRoomCancellationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelRoomCancellationResponse.h; sourceTree = "<group>"; };
 		6E16E2D81753945900326A2E /* HotelRoomCancellationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelRoomCancellationResponse.m; sourceTree = "<group>"; };
+		6EAA700C175419430086A798 /* LocalDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDataModel.h; sourceTree = "<group>"; };
+		6EAA700D175419440086A798 /* LocalDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalDataModel.m; sourceTree = "<group>"; };
+		6EAA701817543F370086A798 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6EAA701917543F370086A798 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6EAA7024175447FC0086A798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6EAA702717544B210086A798 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/BSMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		6EAA702817544B210086A798 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/BSMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		6EAA702917544B220086A798 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/BSDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		6EAA702A17544B220086A798 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/BSDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		6EAA702B17544B220086A798 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6EAA702C17544B220086A798 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EAA702D17544B220086A798 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94C610D9ED984FE1814DFDBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C780BCEFC6814CF981E80A8A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		E30C997C17061BCF00FFFD24 /* EanWsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EanWsError.h; sourceTree = "<group>"; };
@@ -251,6 +266,15 @@
 			path = "TableView Cells";
 			sourceTree = "<group>";
 		};
+		6EAA701717543F350086A798 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA701817543F370086A798 /* MBProgressHUD.h */,
+				6EAA701917543F370086A798 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		E30C997817061B9700FFFD24 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +322,8 @@
 				E3C737EF173B8A2B007078B8 /* Room.m */,
 				6E16E2D71753945900326A2E /* HotelRoomCancellationResponse.h */,
 				6E16E2D81753945900326A2E /* HotelRoomCancellationResponse.m */,
+				6EAA700C175419430086A798 /* LocalDataModel.h */,
+				6EAA700D175419440086A798 /* LocalDataModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -361,6 +387,7 @@
 		E3D6E3D3170407C800372A7C /* Booker */ = {
 			isa = PBXGroup;
 			children = (
+				6EAA701717543F350086A798 /* MBProgressHUD */,
 				6E16E2CC1753670600326A2E /* TableView Cells */,
 				E30C997817061B9700FFFD24 /* Models */,
 				E3B7351E1704EB8200B2697C /* Requests */,
@@ -408,6 +435,7 @@
 		E3D6E3D4170407C800372A7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6EAA7025175447FC0086A798 /* Localizable.strings */,
 				E3D6E3D5170407C800372A7C /* Booker-Info.plist */,
 				E3D6E3D6170407C800372A7C /* InfoPlist.strings */,
 				E3D6E3D9170407C800372A7C /* main.m */,
@@ -494,6 +522,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hant",
+				es,
 			);
 			mainGroup = E3D6E3BF170407C800372A7C;
 			productRefGroup = E3D6E3C9170407C800372A7C /* Products */;
@@ -531,6 +561,7 @@
 				6E16E2CA1753647200326A2E /* ReservationsViewController.xib in Resources */,
 				6E16E2D11753674D00326A2E /* ReservationCell.xib in Resources */,
 				6E16E2D61753813700326A2E /* ReservationDetailViewController.xib in Resources */,
+				6EAA7023175447FC0086A798 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +652,8 @@
 				6E16E2CF1753672900326A2E /* ReservationCell.m in Sources */,
 				6E16E2D51753813700326A2E /* ReservationDetailViewController.m in Sources */,
 				6E16E2D91753945900326A2E /* HotelRoomCancellationResponse.m in Sources */,
+				6EAA700E175419460086A798 /* LocalDataModel.m in Sources */,
+				6EAA701A17543F370086A798 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,10 +676,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6EAA7025175447FC0086A798 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EAA7024175447FC0086A798 /* en */,
+				6EAA702B17544B220086A798 /* es */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		E3D6E3D6170407C800372A7C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E3D6E3D7170407C800372A7C /* en */,
+				6EAA702C17544B220086A798 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -655,6 +699,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3D6E3EF170407C800372A7C /* en */,
+				6EAA702717544B210086A798 /* es */,
 			);
 			name = BSMasterViewController_iPhone.xib;
 			sourceTree = "<group>";
@@ -663,6 +708,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3D6E3F2170407C800372A7C /* en */,
+				6EAA702817544B210086A798 /* es */,
 			);
 			name = BSMasterViewController_iPad.xib;
 			sourceTree = "<group>";
@@ -671,6 +717,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3D6E3F5170407C800372A7C /* en */,
+				6EAA702917544B220086A798 /* es */,
 			);
 			name = BSDetailViewController_iPhone.xib;
 			sourceTree = "<group>";
@@ -679,6 +726,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3D6E3F8170407C800372A7C /* en */,
+				6EAA702A17544B220086A798 /* es */,
 			);
 			name = BSDetailViewController_iPad.xib;
 			sourceTree = "<group>";
@@ -687,6 +735,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3D6E40B170407C800372A7C /* en */,
+				6EAA702D17544B220086A798 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

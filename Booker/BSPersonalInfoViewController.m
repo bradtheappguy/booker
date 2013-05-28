@@ -11,6 +11,7 @@
 #import "ExpediaBookingAPIClient.h"
 #import "ExpediaBookingAPIClient.h"
 #import "ChargableRateInfo.h"
+#import "MBProgressHUD.h"
 
 @interface BSPersonalInfoViewController ()
 
@@ -91,10 +92,16 @@
                            @"companyName":self.companyTextField.text
                            };
   
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.labelText = NSLocalizedString(@"LoadingLabel", nil);
   [[ExpediaBookingAPIClient sharedClient] performBookReservationWithParamaters:params
-                                                                       success:^void(HotelRoomReservationResponse *hotelListResponse){NSLog(@"Booking Success Confirmation: %@",hotelListResponse.confirmationNumbers);}
+                                                                       success:^void(HotelRoomReservationResponse *hotelListResponse){NSLog(@"Booking Success Confirmation: %@",hotelListResponse.confirmationNumbers);
+                                                                           [hud hide:YES];
+                                                                       }
                                                                        failure:^void(NSError *error){
                                                                          UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];[alert show];
-                                                                         NSLog(@"Error %@",[error localizedDescription]); }];
+                                                                         NSLog(@"Error %@",[error localizedDescription]);
+                                                                           [hud hide:YES];
+                                                                       }];
 }
 @end
