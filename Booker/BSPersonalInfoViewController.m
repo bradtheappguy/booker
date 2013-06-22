@@ -77,13 +77,13 @@
                            @"creditCardNumber":@"4111111111111111",
                            
                            
-                          //                           affiliateConfirmationId	36ABD990-16F7-4ABA-ACD1-D9F3932D0BA4-15958-00003AF84F43E026
+                           //affiliateConfirmationId	36ABD990-16F7-4ABA-ACD1-D9F3932D0BA4-15958-00003AF84F43E026
                            @"currencyCode":@"USD",
                            @"countryCode":self.countryTextField.text,
                            @"city":self.cityTextField.text,
                            //affiliateCustomerId	cebfbd3721d85afac353ee0474a17833
                            //cid	367151
-                           @"creditCardExpirationYear":@"2013",
+                           @"creditCardExpirationYear":@"2019",
                            @"homePhone":self.phoneTextField.text,
                            @"stateProvinceCode":self.stateTextField.text,
                            @"workPhone":self.phoneTextField.text,
