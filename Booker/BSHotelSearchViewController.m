@@ -69,7 +69,10 @@
                                                               [hud hide:YES];
                                                           }
                                                           failure:^(NSError *error){
-                                                            NSLog(@"Error: %@",[error localizedDescription]);
+                                                            NSString *localizedErrorDescription = [error localizedDescription];
+                                                            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:localizedErrorDescription delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                                                            [alert show];
+                                                            NSLog(@"Error: %@",localizedErrorDescription);
                                                               [hud hide:YES];
                                                           }];
 }
