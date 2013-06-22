@@ -15,7 +15,7 @@
     [[NSException exceptionWithName:@"Expedia API Exception" reason:@"apiKey and apiSecret must be set" userInfo:nil] raise];
   }
   NSTimeInterval timestamp = [[NSDate date] timeIntervalSince1970];
-  return  [NSString stringWithFormat:@"%@%@%f",apiKey,apiSecret,timestamp];
+  return  [ExpediaAPIRequestSignature stringWithFormat:@"%@%@%f",apiKey,apiSecret,timestamp];
 }
 
 @end

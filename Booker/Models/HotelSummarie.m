@@ -44,7 +44,7 @@
     
     NSArray *roomRateDetails = [[dictionary objectForKey:@"RoomRateDetailsList"] objectForKey:@"RoomRateDetails"];
     if ([roomRateDetails isKindOfClass:[NSDictionary class]]) {
-      self.roomRateDetails = [NSArray arrayWithObject:[[RoomRateDetail alloc] initWithDictionary:(NSDictionary *)roomRateDetails]];
+      self.roomRateDetails = [[NSArray arrayWithObject:[[RoomRateDetail alloc] initWithDictionary:(NSDictionary *)roomRateDetails]] mutableCopy];
     }
     else if ([roomRateDetails count] > 0) {
       self.roomRateDetails = [[NSMutableArray alloc] initWithCapacity:[roomRateDetails count]];

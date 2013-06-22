@@ -38,7 +38,7 @@
     
     NSArray *surcharges = [[dictionary objectForKey:@"Surcharges"] objectForKey:@"Surcharge"];
     if ([surcharges isKindOfClass:[NSDictionary class]]) {
-      self.surcharges = [NSArray arrayWithObject:[[Surcharge alloc] initWithDictionary:(NSDictionary *)surcharges]];
+      self.surcharges = [[NSArray arrayWithObject:[[Surcharge alloc] initWithDictionary:(NSDictionary *)surcharges]] mutableCopy];
     }
     else if ([surcharges count] > 0) {
       self.surcharges = [[NSMutableArray alloc] initWithCapacity:[surcharges count]];
