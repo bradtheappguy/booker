@@ -12,5 +12,6 @@
 
 -(BOOL) isValidCreditCardString {
  // [NSCharacterSet characterSetWithCharactersInString:@"0123456789"];
+  return YES;
 }
 @end

@@ -41,7 +41,7 @@ static NSString *html = @"<html><%DESCRIPTION%><br><br><table><%RATE_TABLE%></ta
   ChargableRateInfo *charageableRateInfo = [[roomRateDetail rateInfo] charageableRateInfo];
   NSArray *nightlyRates = [charageableRateInfo nightlyRates];
   for (NightlyRate *nightlyRate in nightlyRates) {
-    NSNumber *isPromo = nightlyRate.isPromo;
+    //NSNumber *isPromo = nightlyRate.isPromo;
     NSString *rate = nightlyRate.rate;
     NSString *baseRate = nightlyRate.baseRate;
     NSString *htmlRow = [NSString stringWithFormat:@"<tr><td>%@</td><td>%@</td><td>%@</td></tr>",@"DATE",baseRate,rate];

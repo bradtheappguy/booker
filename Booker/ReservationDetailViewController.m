@@ -51,10 +51,10 @@
 
 - (IBAction)onCancelButtonClicked:(id)sender {
 
-    NSDictionary *hotelInfoDic = (NSDictionary *)[[[LocalDataModel sharedLocalData] reservationArray] objectAtIndex:self.nIndex];
-    NSNumber *itineraryId = [hotelInfoDic objectForKey:@"itineraryId"];
-    NSString *emailAddress = [hotelInfoDic objectForKey:@"email"];
-    NSString *confirmationNumbers  = [hotelInfoDic objectForKey:@"confirmationNumbers"];
+    //NSDictionary *hotelInfoDic = (NSDictionary *)[[[LocalDataModel sharedLocalData] reservationArray] objectAtIndex:self.nIndex];
+    //NSNumber *itineraryId = [hotelInfoDic objectForKey:@"itineraryId"];
+    //NSString *emailAddress = [hotelInfoDic objectForKey:@"email"];
+    //NSString *confirmationNumbers  = [hotelInfoDic objectForKey:@"confirmationNumbers"];
     
 //    [[ExpediaAPIClient sharedClient] performCancelReservationWithParamaters:@{@"itineraryId": itineraryId, @"email": @"brad@radiuymon.com", @"confirmationNumber": confirmationNumbers, }
 //                                                            success:^(HotelRoomCancellationResponse *response){

@@ -32,6 +32,8 @@
 		E348EFA61712990B00298D53 /* RoomType.m in Sources */ = {isa = PBXBuildFile; fileRef = E348EFA51712990B00298D53 /* RoomType.m */; };
 		E348EFA917129B1D00298D53 /* HotelDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E348EFA817129B1D00298D53 /* HotelDetail.m */; };
 		E348EFAC17129D7E00298D53 /* Suppliers.m in Sources */ = {isa = PBXBuildFile; fileRef = E348EFAB17129D7D00298D53 /* Suppliers.m */; };
+		E357B1AA17754AC000CCE9A5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E357B1A917754AC000CCE9A5 /* SystemConfiguration.framework */; };
+		E357B1AC17754B3C00CCE9A5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E357B1AB17754B3C00CCE9A5 /* MobileCoreServices.framework */; };
 		E35DB947170654B700DFEAF8 /* PingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E35DB946170654B700DFEAF8 /* PingResponse.m */; };
 		E35DB94A1706581F00DFEAF8 /* HotelListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E35DB9491706581F00DFEAF8 /* HotelListResponse.m */; };
 		E35DB94D17065DF900DFEAF8 /* HotelSummarie.m in Sources */ = {isa = PBXBuildFile; fileRef = E35DB94C17065DF900DFEAF8 /* HotelSummarie.m */; };
@@ -148,6 +150,8 @@
 		E348EFA817129B1D00298D53 /* HotelDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDetail.m; sourceTree = "<group>"; };
 		E348EFAA17129D7D00298D53 /* Suppliers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Suppliers.h; sourceTree = "<group>"; };
 		E348EFAB17129D7D00298D53 /* Suppliers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Suppliers.m; sourceTree = "<group>"; };
+		E357B1A917754AC000CCE9A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E357B1AB17754B3C00CCE9A5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		E35DB945170654B700DFEAF8 /* PingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingResponse.h; sourceTree = "<group>"; };
 		E35DB946170654B700DFEAF8 /* PingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingResponse.m; sourceTree = "<group>"; };
 		E35DB9481706581F00DFEAF8 /* HotelListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelListResponse.h; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E357B1AC17754B3C00CCE9A5 /* MobileCoreServices.framework in Frameworks */,
+				E357B1AA17754AC000CCE9A5 /* SystemConfiguration.framework in Frameworks */,
 				E3D6E3CC170407C800372A7C /* UIKit.framework in Frameworks */,
 				E3D6E3CE170407C800372A7C /* Foundation.framework in Frameworks */,
 				E3D6E3D0170407C800372A7C /* CoreGraphics.framework in Frameworks */,
@@ -344,6 +350,8 @@
 		E3D6E3BF170407C800372A7C = {
 			isa = PBXGroup;
 			children = (
+				E357B1AB17754B3C00CCE9A5 /* MobileCoreServices.framework */,
+				E357B1A917754AC000CCE9A5 /* SystemConfiguration.framework */,
 				E3C737F1173B9199007078B8 /* NSString+CreditCardVAlidation.h */,
 				E3C737F2173B919A007078B8 /* NSString+CreditCardVAlidation.m */,
 				E396C82F1715344500F789E1 /* GTMNSString+HTML.m */,
@@ -768,7 +776,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -793,7 +801,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -805,11 +813,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C780BCEFC6814CF981E80A8A /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Smith (YY7FN8LFBY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brad Smith (YY7FN8LFBY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Booker/Booker-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "Booker/Booker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10FCAFDD-DF74-46D8-B16D-93265CFB04FC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "10FCAFDD-DF74-46D8-B16D-93265CFB04FC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -818,11 +831,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C780BCEFC6814CF981E80A8A /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Smith (YY7FN8LFBY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brad Smith (YY7FN8LFBY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Booker/Booker-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "Booker/Booker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10FCAFDD-DF74-46D8-B16D-93265CFB04FC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "10FCAFDD-DF74-46D8-B16D-93265CFB04FC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
