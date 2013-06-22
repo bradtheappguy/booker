@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface ExpediaAPIRequestSignature : NSString
-+(ExpediaAPIRequestSignature *)signatureWithAPIKey:(NSString *)apiKey secret:(NSString *)secret;
++(NSString *)signatureWithAPIKey:(NSString *)apiKey secret:(NSString *)secret;
 @end

@@ -31,5 +31,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *cityTextField;
 @property (weak, nonatomic) IBOutlet UITextField *postCodeTextField;
 @property (weak, nonatomic) IBOutlet UITextField *stateTextField;
+@property (weak, nonatomic) IBOutlet UITextField *creditCardTypeTextField;
+@property (weak, nonatomic) IBOutlet UITextField *creditCardNumberTextField;
+@property (weak, nonatomic) IBOutlet UITextField *creditCardExpirationMonthTextField;
+@property (weak, nonatomic) IBOutlet UITextField *creditCardExpirationYearTextField;
+@property (weak, nonatomic) IBOutlet UITextField *creditCardIdentifierTextField;
 
 @end

@@ -64,31 +64,27 @@
                            @"room1":@"1",
                            @"room1LastName":self.lastNameTextField.text,
                            @"room1FirstName":self.firstNameTextField.text,
-                           @"room1BedTypeId":@"21",
                            
                            @"firstName":self.firstNameTextField.text,
                            @"lastName":self.lastNameTextField.text,
                            @"chargeableRate":charageableRateInfo.total,
                            
                            @"postalCode":self.postCodeTextField.text,
-                           @"creditCardExpirationMonth":@"5",
+                           @"creditCardExpirationMonth":self.creditCardExpirationMonthTextField.text,
                            @"email":self.emailTextField.text,
-                           @"creditCardType":@"VI",
-                           @"creditCardNumber":@"4111111111111111",
+                           @"creditCardType":self.creditCardTypeTextField.text,
+                           @"creditCardNumber":self.creditCardNumberTextField.text,
                            
-                           
-                           //affiliateConfirmationId	36ABD990-16F7-4ABA-ACD1-D9F3932D0BA4-15958-00003AF84F43E026
                            @"currencyCode":@"USD",
                            @"countryCode":self.countryTextField.text,
                            @"city":self.cityTextField.text,
-                           //affiliateCustomerId	cebfbd3721d85afac353ee0474a17833
-                           //cid	367151
-                           @"creditCardExpirationYear":@"2019",
+                           
+                           @"creditCardExpirationYear":self.creditCardExpirationYearTextField.text,
                            @"homePhone":self.phoneTextField.text,
                            @"stateProvinceCode":self.stateTextField.text,
                            @"workPhone":self.phoneTextField.text,
                            @"address1":self.addressTextField.text,
-                           @"creditCardIdentifier":@"123",
+                           @"creditCardIdentifier":self.creditCardIdentifierTextField.text,
                            @"companyName":self.companyTextField.text
                            };
   
@@ -97,6 +93,8 @@
   [[ExpediaBookingAPIClient sharedClient] performBookReservationWithParamaters:params
                                                                        success:^void(HotelRoomReservationResponse *hotelListResponse){NSLog(@"Booking Success Confirmation: %@",hotelListResponse.confirmationNumbers);
                                                                            [hud hide:YES];
+                                                                         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hurray" message:@"Yor reservation has been booked" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+                                                                         [alert show];
                                                                        }
                                                                        failure:^void(NSError *error){
                                                                          UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];[alert show];

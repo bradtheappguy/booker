@@ -34,8 +34,8 @@
     self.locationTextField.text = @"San Francsico";
   self.numberOfAdultsTextField.text = @"1";
   self.kidsTextField.text = @"1";
-  self.checkinTextField.text = @"05/28/13";
-  self.checkoutTextField.text = @"05/30/13";
+  self.checkinTextField.text = @"05/28/14";
+  self.checkoutTextField.text = @"05/30/14";
   
 }
 
