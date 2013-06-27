@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86062FFC-2378-4582-A50F-3C2C6E74C306</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Booker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8A15C948-8D79-441D-98A4-E43E0A7D7AFA</key>
+		<string>ssh://github.com/bradsmithinc/booker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Booker.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8A15C948-8D79-441D-98A4-E43E0A7D7AFA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/bradsmithinc/booker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8A15C948-8D79-441D-98A4-E43E0A7D7AFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8A15C948-8D79-441D-98A4-E43E0A7D7AFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Booker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
